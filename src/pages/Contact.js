@@ -6,10 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/index.css"
 import "../styles/contact.css"
 
+
 export default function() {
     return (
-        <>
-
+    <>
     <Header/>
       <div className = 'header-wrapper-contact'>
         <h1 className = 'main-header'>Contact USMO</h1>
@@ -61,6 +61,7 @@ export default function() {
       <div className= "socials-socials">
           {/*<img src={require("../../public/linkedin.jpg")} width="25" height="25"></img>
           <img src={require("../../public/facebook.jpg")} width="25" height="25"></img> */}
+          {/* Doesn't work!!!  importing images is weird? Idk, figure this out later.*/}
       </div>
       </div>
       </div>

@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 .flex-wrapper, .flex-wrapper-2 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
 }
+ 
 
 .flex-wrapper {
     flex-wrap: wrap;
@@ -19,14 +21,16 @@
     font-weight: 200;
 }
 .main-header{
+    font-family: "Figtree";
+    font-weight: 450;
     padding-top: 50px;
     padding-left: 40px;
     font-size: 85px;
-    font-weight: 250;
 
 }
 .mini-header {
     font-weight: 500px;
+    
 
 }
 .header-wrapper-contact{
@@ -34,8 +38,8 @@
     max-width: 1110px;
 }
 .little-blurb-contact{
-    font-weight: 400;
-    font-size: 30px;
+    font-family: "Arvo";
+    font-size: 25px;
     padding-left: 60px;
 
 }
