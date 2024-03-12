@@ -1,6 +1,6 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import "../index.css"
+import "../styles/index.css"
 
 export default function() {
     return (

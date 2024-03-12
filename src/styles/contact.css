@@ -1,0 +1,41 @@
+.flex-wrapper, .flex-wrapper-2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.flex-wrapper {
+    flex-wrap: wrap;
+}
+.proj-wrapper {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 50%;
+}
+.socials-mini-header {
+    font-weight: 200;
+}
+.main-header{
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 85px;
+    font-weight: 250;
+
+}
+.mini-header {
+    font-weight: 500px;
+
+}
+.header-wrapper-contact{
+    padding-left: 50px;
+    max-width: 1110px;
+}
+.little-blurb-contact{
+    font-weight: 400;
+    font-size: 30px;
+    padding-left: 60px;
+
+}
