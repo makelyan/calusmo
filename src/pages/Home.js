@@ -1,6 +1,6 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import "../Home.css"
+import "../styles/Home.css"
 
 export default function() {
     return (
@@ -10,7 +10,7 @@ export default function() {
                 <div className="hero-contents">
                     <h1 className = "title">USMO</h1>
                     <p className = "sub1">Under Graduate Street Medicine Outreach</p>
-                    <p className= "sub2" >subtitle about what USMO is catchy</p>
+                    <p className= "sub2" >USMO is UC Berkeleys premeir non proffit otganixation commited to supporting the homeless community of Berkeley</p>
                 </div>
             </div>
             <div className = "mission">
