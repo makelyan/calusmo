@@ -1,0 +1,31 @@
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+.img-wrapper-donations{
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 400px;
+}
+.header-wrapper-donations{
+    display:flex;
+
+}
+.header-wrapper-donations img{
+    object-fit:contain;
+}
+.donation-extra-large{
+    font-size: 100px;
+}
+.donation-number-counter {
+  transition: --num 5s;
+  counter-set: num var(--num);
+  font: 800 40px system-ui;
+}
+.donation-number-counter::after {
+  content: counter(num);
+}
+.donation-number-counter:hover {
+  --num: 100;
+}
