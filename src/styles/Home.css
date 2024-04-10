@@ -34,7 +34,7 @@
 /*mission is the entire mission section wrapper*/
 .mission{
     display: flex;
-    min-height:30vh;
+    min-height: 60vh;
     margin:1.5em;
     align-items: center;
     box-sizing: border-box;
@@ -74,6 +74,7 @@ h2{
 
 .icon-container{
     text-align:center;
+    background-color: rgb(255, 255, 255);
 }
 
 
