@@ -8,14 +8,17 @@ export default function() {
             <Header />
             <div className = "background">
                 <div className="hero-contents">
-                    <h1 className = "title">USMO</h1>
-                    <p className = "sub1">Under Graduate Street Medicine Outreach</p>
-                    <p className= "sub2" >USMO is UC Berkeleys premeir non proffit otganixation commited to supporting the homeless community of Berkeley</p>
+                    <h1 className = "title">UNDERGRADUATE STREET MEDICINE OUTREACH</h1>
+                    <p className = "sub1">USMO is UC Berkeley's premeir non proffit organization commited to supporting the homeless community of Berkeley</p>
+
                 </div>
             </div>
             <div className = "mission">
-                <h2>Our Mission</h2>
-                 <p className = "missionp">Our mission is to overcome and mitigate barriers that houseless communities/encampments face in relation to accessing healthcare and other services provided in the Berkeley area.</p>
+                <div className="missiontxt">
+                    <h2>OUR MISSION</h2>
+                    <p className = "missionp">Our mission is to overcome and mitigate barriers that houseless communities and encampments face in relation to accessing healthcare and other services provided in the Berkeley area.</p>
+                </div>
+                
             </div>
 
             <div className = "services">

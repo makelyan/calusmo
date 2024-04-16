@@ -75,9 +75,8 @@ code {
   text-decoration:underline;
 }
 /* okI know how this works this is incredible!!! Killing myself is SO delayed! */
-.background{
-  background-image:linear-gradient(rgb(176, 176, 176),white);
-}
+
+
 .hero-contents{
   display: flex;
   flex-direction: column;
