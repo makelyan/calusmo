@@ -32,25 +32,17 @@
     max-width: 40vw;
 }
 
-.img1{
-    position:absolute;
-    margin-left:50em;
 
 
-}
-.img1 img {
-    width:50%;
-    display:block;
-
-}
 
 /*mission is the entire mission section wrapper*/
 .mission{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 40vw;
     background-color: aliceblue;
-    align-items: flex-start;
+    align-items: center;
+
     box-sizing: border-box;
     padding:0;
 
@@ -59,8 +51,20 @@
 .missiontxt{
     color:rgba(8, 44, 92, 1);
     max-width: 40vw;
-    margin-top: 10vw;
+
     margin-left: 5vw;
+}
+
+.img1{
+    display:flex;
+    justify-content: center;
+
+
+
+}
+.img1 img {
+    width:50%;
+    display:block;
 }
 
 h2{
@@ -72,7 +76,7 @@ h2{
 }
 
 .missionp{
-
+/* change index.css to remove over riding stylign on mission.css spceifically the 1em padding*/
     padding:0;
     padding-top: 3vw;
     align-self: flex-start;
@@ -80,26 +84,55 @@ h2{
 }
 
 .decal{
-    min-height: 30vw;
-    background-color: aqua;
+    display:flex;
+    flex-direction: row;
+    min-height: 40vw;
+    background-color: aliceblue;
+    align-items: center;
+    box-sizing: border-box;
+    color:rgba(8, 44, 92, 1);
+}
+
+.eduh2{
+    margin-left: 5vw;
+    max-width: 50vw;
+}
+.eduh2 h2{
+    max-width:30vw;
+}
+.txt-and-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.txt-and-button p{
+    max-width: 45vw;
+    font-size: 1.5em;
+
 }
 
 
-
-
-@media screen and (max-width :600px) {
+/*@media screen and (max-width :600px) {
     .title{
         font-size: 100px;
 
     }
 
 }
+*/
 @media screen and (max-width :600px) {
+    .title{
+        margin-top: 2em;
+        font-size: 24px;
+    }
     h2{
         font-size: 30px;
     }
     .sub1{
         font-size:16px;
+        max-width: max-content;
     }
 
     .sub2{
