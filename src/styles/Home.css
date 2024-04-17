@@ -1,3 +1,5 @@
+
+/*hero section*/
 .background{
     background-image:linear-gradient(rgba(113, 155, 179, 1),rgba(135, 138, 222, 1));
     min-height: 60vw;
@@ -30,12 +32,24 @@
     max-width: 40vw;
 }
 
+.img1{
+    position:absolute;
+    margin-left:50em;
+
+
+}
+.img1 img {
+    width:50%;
+    display:block;
+
+}
+
 /*mission is the entire mission section wrapper*/
 .mission{
     display: flex;
     flex-direction: column;
-    min-height: 50vw;
-
+    min-height: 40vw;
+    background-color: aliceblue;
     align-items: flex-start;
     box-sizing: border-box;
     padding:0;
@@ -62,27 +76,12 @@ h2{
     padding:0;
     padding-top: 3vw;
     align-self: flex-start;
-    font-size:2vw;
+    font-size:1.5em;
 }
 
-.services{
-    background-color: grey;
-    min-height: 30vh;
-
-}
-
-
-
-.wrapper0{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-   
-}
-
-.icon-container{
-    text-align:center;
-    background-color: rgb(255, 255, 255);
+.decal{
+    min-height: 30vw;
+    background-color: aqua;
 }
 
 
