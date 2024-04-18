@@ -4,7 +4,7 @@ import "../styles/Home.css"
 
 export default function Home() {
     return (
-        <>
+        <>this is the map embedding
             <Header />
             <div className="background">
                 <div className="hero-contents">
@@ -35,6 +35,17 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+
+            <iframe
+                width="100%"
+                height="450"
+                frameborder="0"
+                style={{ border: 0 }}
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50393.06643711543!2d-122.28493381605301!3d37.870428916971086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857ded265dd40d%3A0x3d6d63978662f85b!2sDavid%20Blackwell%20Hall!5e0!3m2!1sen!2sus!4v1713403493897!5m2!1sen!2sus" 
+                allowfullscreen>
+            </iframe>
+
             <iframe
                 width="100%"
                 height="450"
