@@ -12,11 +12,11 @@ const Services = () => {
   };
 
   const [services, setServices] = useState([
-    { id: 1, title: 'Service 1', info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', image: 'flu_shot.png' },
-    { id: 2, title: 'Service 2', info: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', image: 'mental_health.png' },
-    { id: 3, title: 'Service 3', info: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', image: 'physical_exams.png' },
-    { id: 4, title: 'Service 4', info: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', image: 'logo192.png' },
-    { id: 5, title: 'Service 5', info: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image: 'logo512.png' }
+    { id: 1, title: 'Outreach', info: 'USMO travels to houseless encampments and distributes easy-to-read and use information pamphlets on resources available in the Berkeley area that could meet their specific individual needs.', image: 'flu_shot.png' },
+    { id: 2, title: 'Shuttles', info: 'If needed, USMO facilitates shuttle transportation (Alameda County Transportation Service), so that houseless individuals are able to access  necessary medical care.', image: 'mental_health.png' },
+    { id: 3, title: 'Fundraising', info: 'Through sponsorship and fundraisers, USMO donates necessary and useful resources at encampments.', image: 'physical_exams.png' },
+    { id: 4, title: 'Community', info: 'USMO provides the opportunity for future healthcare workers and professionals to see from different angles by connecting and serving one of the most marginalized populations within our community. Such lasting relationships would help future healthcare leaders understand, centralize, and advocate for houseless communities in their own various professional spaces.', image: 'logo192.png' },
+    { id: 5, title: 'Representation', info: 'USMO uplifts and empowers unfiltered voices within houseless communities through op-ed. Houseless individuals can tell their stories, interests, beliefs, and more, singularizing their experiences for those that otherwise may not have the chance before to understand from their perspective.', image: 'logo512.png' }
   ]);
 
   const [flipped, setFlipped] = useState([]);
