@@ -1,9 +1,29 @@
 
 /*hero section*/
 .background{
-    background-image:linear-gradient(rgba(113, 155, 179, 1),rgba(135, 138, 222, 1));
+ 
+    background-image: url('/public/grouppic.jpeg');
     min-height: 60vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+.home-wrapper{
+    background-image:linear-gradient(rgba(113, 155, 179, 1),white); 
+}
+
+.background::after{
+    content: ''; /* Necessary for the pseudo-element to display */
+    position: absolute; /* Position relative to the parent .background */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+}
+
 
 .hero-contents{
     display: flex;
@@ -13,6 +33,8 @@
     margin-left: 1em;
     margin-right: 1em;
     color: whitesmoke;
+    position:relative;
+    z-index: 3;
 
 }
 /* title is j the USMO text*/
@@ -21,6 +43,7 @@
     padding-bottom: 0em;
     margin-bottom: 0em;
     font-size: 5vw;
+
 }
 
 
@@ -30,6 +53,7 @@
     margin-top: 2em;
     padding: 0em;
     max-width: 40vw;
+
 }
 
 
@@ -39,8 +63,8 @@
 .mission{
     display: flex;
     flex-direction: row;
-    min-height: 40vw;
-    background-color: white;
+    min-height: 30vw;
+    /*background-color: white;*/
     align-items: center;
 
     box-sizing: border-box;
@@ -58,6 +82,7 @@
 .img1{
     display:flex;
     justify-content: center;
+    padding: 1em;
 
 
 
@@ -70,24 +95,24 @@
 h2{
 
     box-sizing: border-box;
-    font-size: 3.5vw;
+    font-size: 3vw;
     align-self: flex-start;
 
 }
 
 .missionp{
-/* change index.css to remove over riding stylign on mission.css spceifically the 1em padding*/
+
     padding:0;
-    padding-top: 3vw;
+    padding-top: 1em;
     align-self: flex-start;
-    font-size:2vw;
+    font-size:1.5vw;
 }
 
 .decal{
     display:flex;
     flex-direction: row;
-    min-height: 40vw;
-    background-color: white;
+    min-height: 30vw;
+   /* background-color: white;*/
     align-items: center;
     box-sizing: border-box;
     color:rgba(8, 44, 92, 1);
@@ -109,8 +134,16 @@ h2{
 }
 .txt-and-button p{
     max-width: 45vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
 
+}
+.donation-map{
+    display: flex;
+    margin-left:5vw;
+    max-width: 40VW;
+    min-height: 10vw;
+    align-items: center;
+    color:rgba(8, 44, 92, 1);
 }
 
 

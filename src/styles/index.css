@@ -96,11 +96,7 @@ code {
   margin-top: 0em;
   padding: 0em;
 }
-.mission{
-  display: flex;
-  min-height:20vh;
-  margin:1em;
-}
+
 p{
   padding:.9em;
   margin:0em;

@@ -33,9 +33,21 @@ export default function() {
 
                     <div className="txt-and-button">
                         <p className = "educationp">USMO offers an educational course to cal students to educate them on the factors and implications surroinding homelessness. Blah blah ask USMO for more infomration</p> 
-                        <button type="submit" className="mt-3 btn btn-primary">Learn More</button>
+                        <div className="buttonD">
+                            <a href = "https://decal.studentorg.berkeley.edu/courses/7193">
+                                <button target = "_blank">Learn more</button>
+                            </a>
+                        </div>
+
                     </div>
                     
+                </div>
+                <div className="donation-map">
+                        <div className="mapH">
+                            <h2>DONATION CENTERS</h2>
+                        </div>
+                   
+                
                 </div>
 
                 
