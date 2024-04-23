@@ -1,45 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
-.flex-wrapper, .flex-wrapper-2 {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-}
- 
 
-.flex-wrapper {
-    flex-wrap: wrap;
-}
-.proj-wrapper {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    padding-right: 20px;
-    width: 50%;
-}
-.socials-mini-header {
-    font-weight: 200;
+.header-wrapper-contact{
+    padding-left: 0%;
+    max-width: 1110px;
 }
 .main-header{
     font-family: "Figtree";
     font-weight: 450;
-    padding-top: 50px;
-    padding-left: 40px;
+    padding-top: 0px;
+    padding-left: 0px;
     font-size: 85px;
-
 }
-.mini-header {
-    font-weight: 500px;
-    
-
-}
-.header-wrapper-contact{
-    padding-left: 50px;
-    max-width: 1110px;
+.flex-wrapper {
+    width: 90%;
+    margin-left: 0%;
+    margin-right: 0%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
 }
 .little-blurb-contact{
     font-family: "Arvo";
     font-size: 25px;
-    padding-left: 60px;
+    padding-left: 0%;
+    max-width:56%;
+}
+.form-wrapper {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    padding-right: 0px;
+    max-width: 44%;
+    height: auto;
+    margin: 0; /* Reset any margin if present */
+}
+
+.mini-header {
+    font-size: 300%;
+    height:500%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    margin: 0 auto;
+    text-indent: 0%;
+}
+
+/* Mobile view - Stack layout */
+@media screen and (max-width: 900px) {
+    .flex-wrapper {
+        flex-direction: column; /* Stack the children */
+        justify-content: center; /* Center horizontally */
+        justify-items: center;
+        align-items:center;
+        padding: 0;
+    }
+    .little-blurb-contact{
+        font-family: "Arvo";
+        font-size: 25px;
+        padding-left: 0%;
+        /* width:70%; */
+        max-width:76%;
+        justify-self:center;
+    }
+    .mini-header {
+        font-size: 200%;
+        height:200%;
+        width:100%;
+    }
+    .main-header {
+        font-size: 500%;
+    }
+    .form-wrapper {
+        margin: 0;
+        max-width: 80%;
+        justify-content: center; /* Center horizontally */
+        justify-self: center;
+    }
 
 }
