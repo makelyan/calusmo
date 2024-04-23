@@ -1,0 +1,59 @@
+/* 
+.page-wrapper{
+    margin-right:5%;
+    flex-direction: column;
+    align-items: center;
+} */
+.main-header{
+    font-family: "Arvo";
+    font-size: 100px;
+    margin-left: 3.5%;
+}
+
+.donate-wrapper{
+    font-family: "Arvo";
+    display: flex;
+    /* align-items:normal; */
+    /* justify-content:space-evenly; */
+    /* margin:0 auto; */
+    margin-right:5%;
+}
+.donate-blurb{
+    font-family: "Arvo";
+    font-size: 25px;
+    max-width:40%;
+    margin: 0 auto;
+    margin-left: 0 auto;
+}
+.usmo-picture{
+    /* display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center; */
+    max-width:40%;
+    margin: 0 auto;
+}
+
+.pic-desc{
+    font-size:25px;
+    text-indent: 0;
+}
+.donate-button{
+    text-align:center;
+    font-size:30px;
+    justify-self: center;
+}
+.Donate{
+    text-align: center;
+    font-family: "Arvo";
+    color: white;
+    background-color: #0d6efd;
+    border: 2px solid #b0cbe2;
+    padding: 10px 20px;
+    border-radius:10px;
+}
+
+.Donate:hover {
+    background-color: #1d6098;
+    color: white;
+}
