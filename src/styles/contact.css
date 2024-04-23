@@ -1,45 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
-.flex-wrapper, .flex-wrapper-2 {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+.contact-us-container {
     display: flex;
-}
- 
-
-.flex-wrapper {
+    flex-direction: column;
+    align-items: left;
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
     flex-wrap: wrap;
 }
-.proj-wrapper {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    padding-right: 20px;
-    width: 50%;
+  
+h1 {
+    color: #363c41;
+    font-size: 28px;
 }
-.socials-mini-header {
-    font-weight: 200;
+  
+.contact-description {
+    font-size: 16px;
+    color: #34495e;
+    margin: 20px 0;
+    line-height: 1.6;
+    text-align: center;
 }
-.main-header{
-    font-family: "Figtree";
-    font-weight: 450;
-    padding-top: 50px;
-    padding-left: 40px;
-    font-size: 85px;
-
+  
+@media (max-width: 768px) {
+    .contact-us-container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .contact-description {
+      font-size: 14px;
+    }
 }
-.mini-header {
-    font-weight: 500px;
-    
-
-}
-.header-wrapper-contact{
-    padding-left: 50px;
-    max-width: 1110px;
-}
-.little-blurb-contact{
-    font-family: "Arvo";
-    font-size: 25px;
-    padding-left: 60px;
-
-}
+  
