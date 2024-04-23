@@ -12,14 +12,13 @@ export default function() {
     <>
     <Header/>
       <div className = 'header-wrapper-contact'>
-        <h1 className = 'main-header'>Contact USMO</h1>
-        <p className = 'little-blurb-contact'> Whether you’re interested in joining our team or donating to USMO, or just want to find out more about what we have to offer, please get in touch and visit us at 2468 Telegraph Ave, Berkeley, CA.</p>
+      <h1 className = 'main-header'>Contact USMO</h1>
       </div>
     <section className = 'flex-wrapper'> 
-      <div className = "proj-wrapper">
+    <p className = 'little-blurb-contact'> We'd love to hear from you! If you're interested in joining us or simply want to know how you can help, please don't hesitate to reach out. Every message is a step towards making a big difference in the lives of those who need it most in the East Bay.</p>
+      <div className = "form-wrapper">
       <Form className= "contact-styles">
-          <h2 className = 'mini-header'> Submit query </h2>     
-          {/* I don't like "submit form". Change this later!*/}
+          <h2 className = 'mini-header'> Submit query </h2>
           <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email Address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" />
@@ -45,25 +44,6 @@ export default function() {
           Submit
         </Button>
       </Form>
-      </div>
-      <div className = "proj-wrapper">
-      <div className="our-socials">
-      <div className="socials-text">
-          <h3 className = "socials-mini-header"> Our hours</h3>
-          <p> 12:39pm - 2:12am</p>
-          {/* add to calender? :D, for the degens */}
-          <h3 className = "socials-mini-header"> Email</h3>
-          <p> rav4@berkeley.edu ;D</p>
-          <h3 className = "socials-mini-header">Phone Number</h3>
-          <p> +1 (855) 444-8888</p>
-      </div>
-      <h3 className = "socials-mini-header">  Social Media platforms </h3>
-      <div className= "socials-socials">
-          {/*<img src={require("../../public/linkedin.jpg")} width="25" height="25"></img>
-          <img src={require("../../public/facebook.jpg")} width="25" height="25"></img> */}
-          {/* Doesn't work!!!  importing images is weird? Idk, figure this out later.*/}
-      </div>
-      </div>
       </div>
     </section>
 
