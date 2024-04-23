@@ -3,21 +3,38 @@
   initial-value: 0;
   inherits: false;
 }
+:root {
+  --body-width: 90%;
+}
 .img-wrapper-donations{
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
     max-width: 400px;
 }
-.header-wrapper-donations{
-    display:flex;
+.img-wrapper-donations img {
+  object-fit:contain;
 
 }
-.header-wrapper-donations img{
+.header-wrapper-donations{
+    margin-left: 15px;
     object-fit:contain;
+
 }
-.donation-extra-large{
+.donation-extra-large h1{
     font-size: 100px;
+    container-name: donations-title-container;
 }
+
+@container main-header (min-width: 700px) {
+  .module h1 {
+    font-size: 10em;
+  }
+}
+/* Trying to make a responsive container for the heading and giving up :D */
+/* I'm just sticking with main-header for now. If you have time, fix this later! */
+
+
 .donation-number-counter {
   transition: --num 5s;
   counter-set: num var(--num);
@@ -28,4 +45,32 @@
 }
 .donation-number-counter:hover {
   --num: 100;
+}
+.body-wrapper-contact {
+  max-width: 1200px;
+}
+.little-blurb-donations {
+  font-family: "Arvo";
+  font-size: 23px;
+  padding-left: 60px;
+}
+.donation-number-flex-wrapper{
+  width: var(--body-width);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.donation-number-flex-wrapper {
+  flex-wrap: wrap;
+}
+.donation-number-counter-wrapper {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+.flex-left, .flex-right {
+  flex: 50%;
 }
