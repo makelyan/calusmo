@@ -52,9 +52,10 @@ export default function() {
                                 <h1> John Doe</h1>
                                 <p> Hi, I’m John! I’m the Senior Advisor for USMO, I do senior advisor things.  My hobbies include Kneading, Snorking, i dont know, something to fill space. There is so much space to fill actually its ok we’ll get them to do little writeups that fill enough space :D I think that would be great anyway i am just ramble typing ramble ramble ramble im sitting in moffit lvl 1 rn the sacremento kings just eliminated the golden state warriors this is crazy</p>
                             </div> 
-                            <div class = "icons-box"> 
-                                {/* <img src= {require("./SampleHeadshot.jpeg")} alt="USMO donation smiling photo" style ={{}}> </img> */}                        
-                            </div>
+                        <div class = "icons-box"> 
+                            <img src= {require("../images/instaIcon.png")} alt="USMO donation smiling photo" style ={{}}></img>                       
+                            <img src= {require("../images/linkedinIcon.png")} alt="USMO donation smiling photo" style ={{}}></img> 
+                            <img src= {require("../images/githubIcon.png")} alt="USMO donation smiling photo" style ={{}}></img>                                                    </div>
                         </div>
                     </div>
                     {/* Should be ok */}
@@ -74,8 +75,9 @@ export default function() {
                                 <p> Hi, I’m John! I’m the Senior Advisor for USMO, I do senior advisor things.  My hobbies include Kneading, Snorking, i dont know, something to fill space. There is so much space to fill actually its ok we’ll get them to do little writeups that fill enough space :D I think that would be great anyway i am just ramble typing ramble ramble ramble im sitting in moffit lvl 1 rn the sacremento kings just eliminated the golden state warriors this is crazy</p>
                             </div> 
                             <div class = "icons-box"> 
-                                {/* <img src= {require("./SampleHeadshot.jpeg")} alt="USMO donation smiling photo" style ={{}}> </img> */}                        
-                            </div>
+                            <img src= {require("../images/instaIcon.png")} alt="USMO donation smiling photo" style ={{}}></img>                       
+                                <img src= {require("../images/linkedinIcon.png")} alt="USMO donation smiling photo" style ={{}}></img> 
+                                <img src= {require("../images/githubIcon.png")} alt="USMO donation smiling photo" style ={{}}></img>                                                    </div>
                         </div>
                     </div>
                     {/* Should be ok */}
@@ -98,8 +100,9 @@ export default function() {
                                 <p> Hi, I’m John! I’m the Senior Advisor for USMO, I do senior advisor things.  My hobbies include Kneading, Snorking, i dont know, something to fill space. There is so much space to fill actually its ok we’ll get them to do little writeups that fill enough space :D I think that would be great anyway i am just ramble typing ramble ramble ramble im sitting in moffit lvl 1 rn the sacremento kings just eliminated the golden state warriors this is crazy</p>
                             </div> 
                             <div class = "icons-box"> 
-                                {/* <img src= {require("./SampleHeadshot.jpeg")} alt="USMO donation smiling photo" style ={{}}> </img> */}                        
-                            </div>
+                            <img src= {require("../images/instaIcon.png")} alt="USMO donation smiling photo" style ={{}}></img>                       
+                                <img src= {require("../images/linkedinIcon.png")} alt="USMO donation smiling photo" style ={{}}></img> 
+                                <img src= {require("../images/githubIcon.png")} alt="USMO donation smiling photo" style ={{}}></img>                                                    </div>
                         </div>
                     </div>
                     {/* Should be ok */}
@@ -119,8 +122,9 @@ export default function() {
                             <p> Hi, I’m John! I’m the Senior Advisor for USMO, I do senior advisor things.  My hobbies include Kneading, Snorking, i dont know, something to fill space. There is so much space to fill actually its ok we’ll get them to do little writeups that fill enough space :D I think that would be great anyway i am just ramble typing ramble ramble ramble im sitting in moffit lvl 1 rn the sacremento kings just eliminated the golden state warriors this is crazy</p>
                         </div> 
                         <div class = "icons-box"> 
-                            {/* <img src= {require("./SampleHeadshot.jpeg")} alt="USMO donation smiling photo" style ={{}}> </img> */}                        
-                        </div>
+                        <img src= {require("../images/instaIcon.png")} alt="USMO donation smiling photo" style ={{}}></img>                       
+                                <img src= {require("../images/linkedinIcon.png")} alt="USMO donation smiling photo" style ={{}}></img> 
+                                <img src= {require("../images/githubIcon.png")} alt="USMO donation smiling photo" style ={{}}></img>                                                </div>
                         </div>
                     </div>
                     {/* Should be ok */}
@@ -139,8 +143,9 @@ export default function() {
                                 <p> Hi, I’m John! I’m the Senior Advisor for USMO, I do senior advisor things.  My hobbies include Kneading, Snorking, i dont know, something to fill space. There is so much space to fill actually its ok we’ll get them to do little writeups that fill enough space :D I think that would be great anyway i am just ramble typing ramble ramble ramble im sitting in moffit lvl 1 rn the sacremento kings just eliminated the golden state warriors this is crazy</p>
                             </div> 
                             <div class = "icons-box"> 
-                                {/* <img src= {require("./SampleHeadshot.jpeg")} alt="USMO donation smiling photo" style ={{}}> </img> */}                        
-                            </div>
+                            <img src= {require("../images/instaIcon.png")} alt="USMO donation smiling photo" style ={{}}></img>                       
+                                <img src= {require("../images/linkedinIcon.png")} alt="USMO donation smiling photo" style ={{}}></img> 
+                                <img src= {require("../images/githubIcon.png")} alt="USMO donation smiling photo" style ={{}}></img>                                                    </div>
                         </div>
                     </div>
                     {/* Should be ok */}
