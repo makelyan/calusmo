@@ -17,34 +17,7 @@ const Footer = () => {
   return (
     <footer className="bg-light text-center text-lg-start">
       <Container fluid className="text-dark">
-        <Row className="pt-4 justify-content-between">
-          <Col xs={12} md={6} lg={4} className="mb-4 mb-lg-0">
-            <Form onSubmit={handleSubmit}>
-              <h5>Join our newsletter!</h5>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Control
-                  type="email"
-                  placeholder="Email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </Form.Group>
-
-              <Button variant="primary" type="submit" className="mt-3">
-                SIGN UP
-              </Button>
-            </Form>
-          </Col>
-
-          <Col lg={{ span: 3, order: 'last' }} md={6} className="mb-4 mb-md-0">
-            <h5 className="text-uppercase">Mailing</h5>
-            <ul className="list-unstyled mb-0">
-              <li className="text-dark">UC Berkeley Student Organization</li>
-              <li className="text-dark">123-456-7890</li>
-              <li className="text-dark">undergraduatestreetmedicineoutreach@gmail.com</li>
-            </ul>
-          </Col>
-        </Row>
+        
 
         {/* Social icons and copyright section */}
         <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>

@@ -10,7 +10,7 @@ export default function() {
                 <div className = "background">
                     <div className="hero-contents">
                         <h1 className = "title">UNDERGRADUATE STREET MEDICINE OUTREACH</h1>
-                        <p className = "sub1">USMO is UC Berkeley's premeir non proffit organization commited to supporting the homeless community of Berkeley</p>
+                        <p className = "sub1">USMO is UC Berkeley's premier nonprofit organization committed to supporting the homeless community in Berkeley.</p>
 
                     </div>
                 </div>
@@ -18,7 +18,7 @@ export default function() {
                 <div className = "mission">
                     <div className="missiontxt">
                         <h2>OUR MISSION</h2>
-                        <p className = "missionp">Our mission is to overcome and mitigate barriers that houseless communities and encampments face in relation to accessing healthcare and other services provided in the Berkeley area.</p>
+                        <p className = "missionp">Our mission is to effectively address and reduce the obstacles faced by houseless communities and encampments in accessing healthcare and other essential services within the East Bay.</p>
                     </div>
                     <div className = "img1">
                         <img src= "mission_img.jpeg" alt = "this picture didnt load :/"/>
@@ -32,7 +32,7 @@ export default function() {
                     </div>
 
                     <div className="txt-and-button">
-                        <p className = "educationp">USMO offers an educational course to cal students to educate them on the factors and implications surroinding homelessness. Blah blah ask USMO for more infomration</p> 
+                        <p className = "educationp">USMO provides an educational course for UC Berkeley students, aimed at deepening their understanding of the factors and implications surrounding homelessness. For more information, click the button below!</p> 
                         <div className="buttonD">
                             <a href = "https://decal.studentorg.berkeley.edu/courses/7193">
                                 <button target = "_blank">Learn more</button>
