@@ -49,6 +49,68 @@ code {
   box-shadow: 0 0.125em 0.5em rgba(0, 0, 0, 0.1);
 }
 
+/* Partnerships Styles */
+.our-partnerships-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.0rem;
+  justify-content: center;
+  align-items: start; 
+}
+
+.our-partnerships-item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: center;
+  width: 150px;
+  height: 200px; 
+  /* justify-content: space-between;  */
+}
+
+.our-partnerships-logo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.our-partnerships-logo img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain; 
+}
+
+.our-partnerships-item p {
+  font-size: 14px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding-bottom: 10px;
+  align-self: center;
+  text-align: center;
+}
+
+.our-partnerships-name {
+  font-size: 14px;
+  align-self: center;
+  text-align: center;
+}
+
+.our-partnerships-wrapper{
+  padding: 20px;
+}
+
+.our-partnerships-grid:has(:last-child:nth-child(5n + 1)) {
+  justify-content: center;
+}
+
+
 /* Text Container Styles */
 .text-container-left, .text-container-right, .text-container-top {
   top: 0;

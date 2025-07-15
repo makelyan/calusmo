@@ -1,11 +1,67 @@
 /* eslint-disable import/no-anonymous-default-export */
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import OurPartnerships from "../components/OurPartnerships"
 import { Link } from "react-router-dom";
 import "../styles/home.css"
 import "../styles/index.css"
 
+
+
 export default function() {
+
+    const ourPartnerships = [
+        { 
+            name: "Food Not Bombs", 
+            link: "http://foodnotbombs.net" 
+        },
+        { 
+            name: "East Bay SPCA", 
+            link: "" 
+        },
+        { 
+            name: "Berkeley NEED", 
+            link: "https://eastbayspca.org" 
+        },
+       
+        { 
+            name: "ASUC Legal Clinic", 
+            link: "https://www.asucslcberkeley.org" 
+        },
+        { 
+            name: "Students vs. Pandemics", 
+            link: "https://www.studentsvspandemics.com" 
+        },
+        { 
+            name: "Homeless Action Center", 
+            link: "https://homelessactioncenter.org" 
+        },
+        { 
+            name: "ASUC Community Projects", 
+            link: "https://publicservice.berkeley.edu/programs/student-initiated-projects/" 
+        },
+        
+        { 
+            name: "All Souls Episcopal Parish", 
+            link: "https://www.allsoulsparish.org" 
+        },
+        
+        { 
+            name: "Housing and Economic Rights Advocates", 
+            link: "https://www.heraca.org" 
+        },
+        
+        { 
+            name: "National Coalition Against Prescription Drug Abuse", 
+            link: "https://ncapda.org" 
+        },
+        { 
+            name: "Where Do We Go?", 
+            link: "https://www.wdwg.org" 
+        }
+        
+    ];
+    
     return (
         <>
             <Header />
@@ -58,6 +114,27 @@ export default function() {
                             </p>
                         </div>
                     </section>
+                    <section className="our-partnerships-container text-container-top">
+                        <h2>Our Partnerships</h2>
+                        <div className="card"> 
+                            <div className = "our-partnerships-wrapper">
+                                <div className="our-partnerships-grid">
+                                {ourPartnerships.map((org, index) => (
+                                    <div className="our-partnerships-item" key={index}> {/* add padding around each logo */}
+                                        <div className="our-partnerships-logo">
+                                            <OurPartnerships
+                                                name={org.name} 
+                                                link={org.link} 
+                                            />
+                                        </div>
+                                        <p style={{ textAlign: 'center' }}>{org.name}</p> 
+                                    </div>
+                                ))}
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
                 </div>
             </div>
             <Footer />
