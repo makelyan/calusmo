@@ -52,16 +52,16 @@ code {
 /* Partnerships Styles */
 .our-partnerships-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.0rem;
   justify-content: center;
-  align-items: start; 
+  /* align-items: start;  */
 }
 
 .our-partnerships-item {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   text-align: center;
   width: 150px;
   height: 200px; 
@@ -69,8 +69,8 @@ code {
 }
 
 .our-partnerships-logo {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   display: flex;
   align-items: start;
   justify-content: center;
