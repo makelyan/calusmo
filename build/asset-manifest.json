@@ -1,28 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.4496bcd4.css",
-    "main.js": "/static/js/main.e02cd81f.js",
-    "static/js/453.5f3b700d.chunk.js": "/static/js/453.5f3b700d.chunk.js",
+    "main.css": "/static/css/main.9751ebd4.css",
+    "main.js": "/static/js/main.545d383e.js",
+    "static/js/453.06a10a8d.chunk.js": "/static/js/453.06a10a8d.chunk.js",
     "static/media/dog.JPG": "/static/media/dog.00b8825d44f42f5800c4.JPG",
     "static/media/Isabella Lake.jpg": "/static/media/Isabella Lake.dc782fae4d183bd65a10.jpg",
     "static/media/Grace Isaac.jpg": "/static/media/Grace Isaac.f0306974fc8893f57f6f.jpg",
     "static/media/Alinna Villaroman.png": "/static/media/Alinna Villaroman.c7cb842b8266542247d4.png",
+    "static/media/food-not-bombs.png": "/static/media/food-not-bombs.a2bf35f9adb6575d0600.png",
     "static/media/Jessica Patrick.jpg": "/static/media/Jessica Patrick.3867e9137509803ea859.jpg",
     "static/media/Jacob Park.jpg": "/static/media/Jacob Park.74c16a00acbd36d540ec.jpg",
     "static/media/mainBanner.jpg": "/static/media/mainBanner.cadc3b33836d7dc726fc.jpg",
     "static/media/Steven Zhang.jpeg": "/static/media/Steven Zhang.4428ac9b6cd90b915868.jpeg",
+    "static/media/berkeley-need.png": "/static/media/berkeley-need.56cd5167e1ac6649dc10.png",
+    "static/media/asuc-legal-clinic.png": "/static/media/asuc-legal-clinic.c1f28db0fabffcb95ea0.png",
+    "static/media/ncapda.png": "/static/media/ncapda.f89ce78be706746a3afd.png",
+    "static/media/east-bay-spca.png": "/static/media/east-bay-spca.0176263e4b3663d0e85f.png",
+    "static/media/hera.png": "/static/media/hera.eaa61dcf519fa8638a61.png",
+    "static/media/Ryan Alavi.jpg": "/static/media/Ryan Alavi.a6c95bc7550444e22552.jpg",
+    "static/media/students-vs-pandemics.png": "/static/media/students-vs-pandemics.ca26a03785bd93716ed6.png",
     "static/media/Sanchitha Kannabran.jpg": "/static/media/Sanchitha Kannabran.7ae01247c9842375f016.jpg",
     "static/media/Helen Li.png": "/static/media/Helen Li.1aed79a78c77c4f34b4a.png",
     "static/media/Anju Natarajan.jpeg": "/static/media/Anju Natarajan.d4be21cac83a70234a06.jpeg",
+    "static/media/homeless-action-center.png": "/static/media/homeless-action-center.e09fc675cbb0dcdd0025.png",
+    "static/media/where-do-we-go.png": "/static/media/where-do-we-go.58f9613f517a1af280c7.png",
+    "static/media/asuc.png": "/static/media/asuc.6903bc2d27736df68557.png",
+    "static/media/all-souls-episcopal-parish.png": "/static/media/all-souls-episcopal-parish.dd39a2dad1658189f110.png",
     "static/media/Hargun Chhabra.jpg": "/static/media/Hargun Chhabra.54a25ae65657394cf579.jpg",
     "static/media/logo.png": "/static/media/logo.142660d02dae7929a059.png",
     "index.html": "/index.html",
-    "main.4496bcd4.css.map": "/static/css/main.4496bcd4.css.map",
-    "main.e02cd81f.js.map": "/static/js/main.e02cd81f.js.map",
-    "453.5f3b700d.chunk.js.map": "/static/js/453.5f3b700d.chunk.js.map"
+    "main.9751ebd4.css.map": "/static/css/main.9751ebd4.css.map",
+    "main.545d383e.js.map": "/static/js/main.545d383e.js.map",
+    "453.06a10a8d.chunk.js.map": "/static/js/453.06a10a8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4496bcd4.css",
-    "static/js/main.e02cd81f.js"
+    "static/css/main.9751ebd4.css",
+    "static/js/main.545d383e.js"
   ]
 }

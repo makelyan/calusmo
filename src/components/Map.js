@@ -174,6 +174,7 @@ const categories = [
     'Miscellaneous'
 ];
 
+/*
 async function geocodeAddress(address) {
     const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`;
     try {
@@ -192,5 +193,6 @@ async function geocodeAddress(address) {
     }
     return null;
 }
+*/
 
 export { ResourceCard, createMarkerIcon, categoryColors, categories };
