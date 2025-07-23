@@ -174,25 +174,4 @@ const categories = [
     'Miscellaneous'
 ];
 
-/*
-async function geocodeAddress(address) {
-    const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`;
-    try {
-        const res = await fetch(url, {
-            headers: {
-            'Accept-Language': 'en',
-            'User-Agent': 'YourAppNameHere/1.0 (your.email@example.com)' // Update this per Nominatim's policy
-            }
-        });
-        const data = await res.json();
-        if (data.length > 0) {
-            return { lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon) };
-        }
-    } catch (err) {
-        console.error("Geocoding error:", err);
-    }
-    return null;
-}
-*/
-
 export { ResourceCard, createMarkerIcon, categoryColors, categories };

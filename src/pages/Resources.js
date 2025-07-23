@@ -81,19 +81,11 @@ export default function Resources() {
                                     );
                                 }}
                                 style={{
-                                    cursor: 'pointer',
                                     border: `3px solid ${categoryColors[cat]}`,
-                                    borderRadius: '8px',
-                                    padding: '6px 10px',
                                     backgroundColor: isActive ? categoryColors[cat] : `${categoryColors[cat]}33`,
                                     color: isActive ? 'white' : '#333',
-                                    fontWeight: 'bold',
-                                    textAlign: 'center',
-                                    transition: '0.2s all ease-in-out',
-                                    width: '100%',
-                                    maxWidth: '180px',
-                                    boxSizing: 'border-box',
-                                  }}
+                                }}
+                                className="resources-legend"
                             >
                                 {cat}
                             </p>

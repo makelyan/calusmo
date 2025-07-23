@@ -145,3 +145,15 @@
     color: #444;
     white-space: pre-line;
 }
+
+.resources-legend {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.2s all ease-in-out;
+    width: 100%;
+    max-width: 180px;
+    box-sizing: border-box;
+}
