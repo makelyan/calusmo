@@ -3,6 +3,7 @@ import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 import OurTeam from "./pages/OurTeam";
 import NoPage from "./pages/NoPage";
+import Resources from "./pages/Resources";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/our-team" element={<OurTeam />} />
+        <Route path="/resources" element={<Resources />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

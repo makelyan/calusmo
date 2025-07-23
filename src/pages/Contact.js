@@ -22,9 +22,8 @@ export default function() {
         <h2>Contact Information</h2>
         <p>
           <b>Phone:</b> (510) 543-1632
-          {/* <br></br> 
-          <b>Email:</b> */}
-          {/* TODO: Get Email */}
+          <br></br> 
+          <b>Email:</b> ucbusmo@gmail.com
         </p>
       </div>
     </div>
