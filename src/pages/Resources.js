@@ -111,10 +111,16 @@ export default function Resources() {
                 <div className="quick-links">
                     <h2 className="quick-links">Quick Links</h2>
                     <p>Downloads</p>
-                    <ul>
-                        <li>Resources Brochure with Map: <a href="https://drive.google.com/file/d/1GQNiw55GyjUoo3AfeKHHf6u9fW9x82og/view?usp=share_link">View PDF</a></li>
-                        <li>Housing Resources Brochure: <a href="https://drive.google.com/file/d/1PMsNj6WkBnXePwDDc1yN_iuOG1MfL--E/view?usp=share_link">View PDF</a></li>
-                        <li>Coordinated Entry Guide: <a href="https://drive.google.com/file/d/1wNnCG6cychbDm5l3h5WpSJMXS1I1Od-b/view?usp=share_link">View PDF</a></li>
+                    <ul> 
+                        {/* implicity the root directory here is /public */}
+                        <li><a href="/downloads/Resources_Map_USMO.pdf">Resources Brochure with Map
+                            <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
+                        <li><a href="/downloads/Housing_Resources_USMO.pdf">Housing Resources Brochure
+                            <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
+                        <li><a href="/downloads/Coordinated_Entry_USMO.pdf">Coordinated Entry Guide
+                            <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
+                        <li><a href="/downloads/Sweeps_USMO.pdf">What to do if you're stopped, searched, or swept while unhoused
+                            <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
                     </ul>
                 </div>
             </div>

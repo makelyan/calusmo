@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7182acae.css",
-    "main.js": "/static/js/main.1b20702b.js",
+    "main.js": "/static/js/main.2430e3dd.js",
     "static/js/453.06a10a8d.chunk.js": "/static/js/453.06a10a8d.chunk.js",
     "static/media/dog.JPG": "/static/media/dog.00b8825d44f42f5800c4.JPG",
     "static/media/Isabella Lake.jpg": "/static/media/Isabella Lake.dc782fae4d183bd65a10.jpg",
@@ -30,11 +30,11 @@
     "static/media/logo.png": "/static/media/logo.142660d02dae7929a059.png",
     "index.html": "/index.html",
     "main.7182acae.css.map": "/static/css/main.7182acae.css.map",
-    "main.1b20702b.js.map": "/static/js/main.1b20702b.js.map",
+    "main.2430e3dd.js.map": "/static/js/main.2430e3dd.js.map",
     "453.06a10a8d.chunk.js.map": "/static/js/453.06a10a8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7182acae.css",
-    "static/js/main.1b20702b.js"
+    "static/js/main.2430e3dd.js"
   ]
 }
