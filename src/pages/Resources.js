@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import { ResourceCard, createMarkerIcon, categoryColors, categories } from "../components/Map";
 import "../styles/index.css";
 import "../styles/resources.css";
+import { Helmet } from 'react-helmet-async';
 
 import resourcesData from "../data/resources.json";
 
@@ -58,6 +59,10 @@ export default function Resources() {
 
     return (
         <>
+            <Helmet>
+                <title>Resources</title>
+                <link rel="canonical" href="https://calusmo.org/resources" />
+            </Helmet>
             <Header />
             <div className="header-container">
                 <h1>Resources</h1>

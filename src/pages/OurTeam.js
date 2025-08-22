@@ -3,12 +3,17 @@ import Footer from "../components/Footer";
 import FlipCard from "../components/FlipCard";
 import "../styles/ourteam.css";
 import ourTeamData from '../data/ourteam.json';
+import { Helmet } from 'react-helmet-async';
 
 export default function OurTeam() {
 
   return (
     <>
-      <Header />
+    <Helmet>
+        <title>Our Team</title>
+        <link rel="canonical" href="https://calusmo.org/our-team" />
+    </Helmet>
+    <Header />
       <div className="header-container">
         <h1>MEET THE TEAM</h1>
         <p>

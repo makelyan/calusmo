@@ -6,11 +6,16 @@ import { Link } from "react-router-dom";
 import "../styles/home.css"
 import "../styles/index.css"
 import ourPartnershipsData from '../data/partnerships.json';
+import { Helmet } from 'react-helmet-async';
 
 export default function() {
 
     return (
         <>
+            <Helmet>
+                <title>USMO</title>
+                <link rel="canonical" href="https://calusmo.org/home" />
+            </Helmet>
             <Header />
             <div className="banner-container">
                 <div className="banner-overlay">

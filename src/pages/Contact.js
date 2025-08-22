@@ -6,10 +6,15 @@ import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/index.css"
 import "../styles/contact.css"
+import { Helmet } from 'react-helmet-async';
 
 export default function() {
     return (
     <>
+    <Helmet>
+        <title>Contact Us</title>
+        <link rel="canonical" href="https://calusmo.org/contact" />
+    </Helmet>
     <Header/>   
     <div className="contact header-container">
         <h1>Contact Us</h1>
