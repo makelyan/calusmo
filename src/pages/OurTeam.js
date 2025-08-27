@@ -15,7 +15,7 @@ export default function OurTeam() {
     </Helmet>
     <Header />
       <div className="header-container">
-        <h1>MEET THE TEAM</h1>
+        <h1>Meet The Team</h1>
         <p>
           Our team is composed of UC Berkeley undergraduates of all levels who are passionate about social good and supporting the local communities at Berkeley.
         </p>

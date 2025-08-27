@@ -26,6 +26,7 @@ function Header() {
           <Nav className="link-list">
             <Link to="/home" className={`nav-item ${currentPage === '/home' ? 'active' : ''}`}>Home</Link>
             <Link to="/our-team" className={`nav-item ${currentPage === '/our-team' ? 'active' : ''}`}>Our Team</Link>
+            <Link to="/join-us" className={`nav-item ${currentPage === '/our-team' ? 'active' : ''}`}>Join Us!</Link>
             <Link to="/contact" className={`nav-item ${currentPage === '/contact' ? 'active' : ''}`}>Contact</Link>
             <Link to="/resources" className={`nav-item ${currentPage === '/resources' ? 'active' : ''}`}>Resources</Link>
             <Link to="https://gofund.me/a035f677" target="_blank" rel="noopener noreferrer" className={`nav-item ${currentPage === '/donate' ? 'active' : ''}`}>Donate</Link>
