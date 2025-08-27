@@ -47,7 +47,7 @@ export default function() {
                             <strong>We are now recruiting new members for Fall 2025!</strong>
                             All undergraduate students regardless of year and prior experience are welcome to join USMO.
 
-                            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", marginTop: "10px", gap: "20px",   textAlign: "left" }}>
+                            <div className="joinus-home" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", marginTop: "10px", gap: "20px",  textAlign: "left" }}>
                                 <div>
                                     <h3 style={{ textAlign: "center" }}>Info Sessions</h3>
                                     <ul>

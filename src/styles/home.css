@@ -53,6 +53,30 @@
     width: 80%; 
 }
 
+
+/* Join Us Section Styles */
+.joinus-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .joinus-home {
+        grid-template-columns: 1fr; 
+    }
+
+    .joinus-home h3 {
+        font-size: 1.2rem; 
+    }
+
+    .joinus-home ul li {
+        font-size: 0.9rem; 
+    }
+}
+
 /* Partnerships Styles */
 .our-partnerships-grid {
     display: grid;
