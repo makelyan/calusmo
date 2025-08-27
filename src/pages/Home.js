@@ -82,7 +82,7 @@ export default function() {
                                 Interest Form
                             </a>
                              <a 
-                                href="" 
+                                href="https://tinyurl.com/usmofall25recruitment" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 style={{ display: "inline-block", marginTop: "10px", padding: "10px 16px", backgroundColor: "#88acd4", color: "black", borderRadius: "6px", textDecoration: "none", fontWeight: "bold" }} >

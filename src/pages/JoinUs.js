@@ -4,7 +4,7 @@ import "../styles/joinus.css"
 import { Helmet } from 'react-helmet-async';
 import OutreachImage from '../images/OutreachImage.jpeg';
 
-export default function() {
+export default function JoinUs() {
 
   return (
     <>
@@ -26,8 +26,9 @@ export default function() {
                 <p className="joinus-text">
                 <span>
                     We are now recruiting new members for Fall 2025!
-                    Fill out our <a href="https://tinyurl.com/usmofall25recruitment" target="_blank">interest form</a> to join our mailing list, 
-                    or <b><a href="" target="_blank">Apply Here!</a></b> {/* due date */}
+                    Fill out our <a href="https://tinyurl.com/usmofall25recruitment" target="_blank" rel="noreferrer">interest form</a> to join our mailing list, 
+                    or <b><a href="https://tinyurl.com/usmofall25recruitment" target="_blank" rel="noreferrer">Apply Here!</a></b> 
+                    {/* due date */}
                 </span>
                 </p>
         
@@ -91,7 +92,7 @@ export default function() {
             <p className="joinus-text">
                 During outreach, we go to various encampments around Berkeley and Oakland, and pass out food, medical supplies, hygiene materials, and more.
                 <br></br>
-                <img src={OutreachImage} alt="Outreach picture" className="joinus-text" style={{ display: "block", margin: "12 auto" }} />
+                <img src={OutreachImage} alt="Outreach" className="joinus-text" style={{ display: "block", margin: "12 auto" }} />
             </p>
 
 
