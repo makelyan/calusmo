@@ -69,11 +69,14 @@
     }
 
     .joinus-home h3 {
-        font-size: 1.2rem; 
+        font-size: 0.8rem;  /* smaller heading */
     }
-
+    
     .joinus-home ul li {
-        font-size: 0.9rem; 
+        font-size: 0.6rem; /* smaller list items */
+    }
+    #joinus-strong {
+        font-size: 0.6rem; /* smaller list items */
     }
 }
 

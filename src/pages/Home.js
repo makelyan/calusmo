@@ -44,10 +44,10 @@ export default function() {
                         <h2>Join Us!</h2>
                         <div className="card">
                             
-                            <strong>We are now recruiting new members for Fall 2025!</strong>
-                            All undergraduate students regardless of year and prior experience are welcome to join USMO.
+                            <strong id="joinus-strong">We are now recruiting new members for Fall 2025!</strong>
+                            <p style={{ textAlign: "center" }}>All undergraduate students regardless of year and prior experience are welcome to join USMO.</p>
 
-                            <div className="joinus-home" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", marginTop: "10px", gap: "20px",  textAlign: "left" }}>
+                            <div className="joinus-home">
                                 <div>
                                     <h3 style={{ textAlign: "center" }}>Info Sessions</h3>
                                     <ul>
