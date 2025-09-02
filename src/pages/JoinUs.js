@@ -27,7 +27,7 @@ export default function JoinUs() {
                 <span>
                     We are now recruiting new members for Fall 2025!
                     Fill out our <a href="https://tinyurl.com/usmofall25recruitment" target="_blank" rel="noreferrer">interest form</a> to join our mailing list, 
-                    or <b><a href="https://tinyurl.com/usmofall25recruitment" target="_blank" rel="noreferrer">Apply Here!</a></b> 
+                    or <b><a href="https://forms.gle/9KAddPc3bghkJeyR9" target="_blank" rel="noreferrer">Apply Here!</a></b> 
                     {/* due date */}
                 </span>
                 </p>
