@@ -43,7 +43,12 @@ export default function JoinUs() {
                     <li>
                         Wednesday September 10, 2025 from 8-9 PM @ Wheeler 24
                     </li>
-                    {/* slides + recordings (if we have it) */}
+                    <li>
+                        <a href="/downloads/infosession_fa25_usmo.pdf">
+                            Infosession Slides
+                            <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i>
+                        </a>
+                    </li>
                 </ul>
                 </p>
         <hr className="joinus-hr" />
