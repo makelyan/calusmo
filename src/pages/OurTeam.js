@@ -6,7 +6,7 @@ import ourTeamData from '../data/ourteam.json';
 import { Helmet } from 'react-helmet-async';
 
 export default function OurTeam() {
-
+  const committees = ["Internal", "External", "Advocacy", "Finance"];
   return (
     <>
     <Helmet>
@@ -21,20 +21,35 @@ export default function OurTeam() {
         </p>
       </div>
 
-      <div className="flip-cards-grid">
-        {ourTeamData.map((member, index) => (
-          <div className="team-member-container" key={index}>            
-            <FlipCard
-              name={member.name}
-              position={member.position}
-              bio={member.bio}
-              instagramLink={member.instagramLink}
-              linkedinLink={member.linkedinLink}
-            />
+        {committees.map((committee, index) => (
+        <div className="flip-cards-grid-container" key={index}>
+          {committee !== "Internal" && (
+            <div className="ourteam-header">{committee} Committee</div>
+          )}
+      
+          <div className="flip-cards-grid">
+            {ourTeamData
+              .filter(member => member.committee === committee)
+              .map((member, memberIndex) => (
+                <div
+                  className="team-member-container"
+                  key={memberIndex}
+                  style={{ visibility: member.name === "placeholder" ? "hidden" : "visible" }}
+                >
+                  <FlipCard
+                    name={member.name}
+                    position={member.position}
+                    bio={member.bio}
+                    instagramLink={member.instagramLink}
+                    linkedinLink={member.linkedinLink}
+                  />
+                </div>
+              ))}
           </div>
-        ))}
-      </div>
-
+      
+          <hr className="ourteam-hr" />
+        </div>
+      ))}
       <Footer />
     </>
   );

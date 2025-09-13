@@ -2,41 +2,63 @@
     {
         "name": "Anju Natarajan",
         "position": "President",
-        "bio": "Hello hello! My name is Anju and I'm a 3rd year majoring in MCB and minoring in Data Science. This club has been a passion of mine since freshman year, and I'm so so proud of how far we've come and I love the friends I've made along the way (in the club and also the encampments)! Outside of USMO you'll see me in my lab or making art :)",
+        "committee": "Internal",
+        "bio": "Hello hello! My name is Anju and I'm a 4th year majoring in MCB and minoring in Data Science. This club has been a passion of mine since freshman year, and I'm so so proud of how far we've come and I love the friends I've made along the way (in the club and also the encampments)! Outside of USMO you'll see me in my lab or making art :)",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
     },
     {
         "name": "Ryan Alavi",
         "position": "Internal Vice President",
+        "committee": "Internal",
+        "bio": "Hello! My name is Ryan Alavi, and I am a 3rd year at Berkeley studying Public Health and Biology. USMO was one of the first organizations I joined at Berkeley, and over the past few years I have come to see it as less of a club and more of a community built on solidarity and camaraderie. Working alongside other members in our shared commitment to holistically supporting our unhoused neighbors in the East Bay has shaped some of the most meaningful and eye-opening experiences of my time here at Berkeley. I am so excited to continue this work, expand our reach, and welcome future members.",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Anoushka Adusumalli",
+        "position": "Internal Vice President",
+        "committee": "Internal",
         "bio": "",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Jiwon Shin",
+        "position": "Internal Chair",
+        "committee": "Internal",
+        "bio": "Hello! I’m a third-year studying Molecular and Cell Biology. I coordinate volunteers for our weekly outreach and help distribute supplies to meet the needs of each encampment. I love working with people and am excited to welcome more new faces during outreach!",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
     },
     {
         "name": "Alinna Villaroman",
         "position": "Finance Vice President",
-        "bio": "Hey guys, Alinna here, your finance head!! If I’m not handling your precious cargo, I’m off spending undisclosed amounts of my own money on little figures and trinkets that give me emotional support. I’m a junior majoring in MCB, and fun fact, I’ll watch or read anything you recommend me (and I mean anything) so let me know what I can use as an excuse to waste my time on next!",
+        "committee": "Finance",
+        "bio": "Hey guys, Alinna here, your finance head!! If I’m not handling your precious cargo, I’m off spending undisclosed amounts of my own money on little figures and trinkets that give me emotional support. I’m a senior majoring in MCB, and fun fact, I’ll watch or read anything you recommend me (and I mean anything) so let me know what I can use as an excuse to waste my time on next!",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
     },
     {
         "name": "Steven Zhang",
         "position": "Finance Chair",
-        "bio": "Hey y'all! I'm a fourth-year Rhetoric/Legal Studies major who helps teach our DeCal, Health and the Unhoused. I love backpacking, acquiring new solo hobbies, and all the friends I've made through USMO! I hope that all our new members come to feel the same way :)",
+        "committee": "Finance",
+        "bio": "Hey guys! My name is Steven and I am a third-year student majoring in Microbial Biology. In my free time, I love being active and enjoying nature. I serve as a finance chair for USMO with the focus on working with the ASUC Community Projects, grants and development, as well as concessions partnership with Cal Athletics. ",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
     },
     {
         "name": "Grace Isaac",
         "position": "Finance Chair",
-        "bio": "Hello! I am a third year MCB major and love cats, baking, and going on walks. As a finance chair, I focus on grants and development.",
+        "committee": "Finance",
+        "bio": "Hello! I am a fourth year MCB major and love cats, baking, and going on walks. As a finance chair, I focus on grants and development.",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
     },
     {
         "name": "Riya Singh",
         "position": "Finance Chair",
+        "committee": "Finance",
         "bio": "Hi! My name is Riya Singh and I'm a 3rd year majoring in Integrative Biology. I really enjoy USMO because we are able to form real connections with people and we can make a difference in these communities. Outside of school, I enjoy playing and watching (professional) tennis and eating new foods! I am finance chair, and will be focusing on grants and development this upcoming year.",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
@@ -44,21 +66,64 @@
     {
         "name": "Sanchitha Kannabran",
         "position": "External Vice President",
-        "bio": "Hi, I'm Sanchitha Kannabran and I am a junior studying Molecular and Cellular Biology with an emphasis on Immunology and Molecular Medicine. For the past 3 semesters I have enjoyed helping the community by arranging partnerships and organizing events with USMO and I look forward to doing more impactful work this semester as part of the external committee!",
+        "committee": "External",
+        "bio": "Hi, I'm Sanchitha Kannabran and I am a senior studying Molecular and Cellular Biology with an emphasis on Immunology and Molecular Medicine. For the past 3 semesters I have enjoyed helping the community by arranging partnerships and organizing events with USMO and I look forward to doing more impactful work this semester as part of the external committee!",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
     },
     {
         "name": "Hargun Chhabra",
         "position": "External Chair",
+        "committee": "External",
         "bio": "Hargun Chhabra is one of the Chairs of the External Committee for USMO. He is currently pursuing a Molecular Environmental Biology major and a Nutrition minor. Hargun is dedicated to serving the needs of the various unhoused communities here in the wider East Bay region, striving to make a positive impact on their lives.",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Sanya Singh",
+        "position": "External Chair",
+        "committee": "External",
+        "bio": "Hi, I am a 4th year student at Cal studying MCB.",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Erik Fong",
+        "position": "External Chair",
+        "committee": "External",
+        "bio": "Hello! I'm a third year studying Molecular and Cellular Biology and Data Science. USMO has played a vital role in introducing me to Berkeley and giving me a sense of community. I hope it does the same for you!",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
     },
     {
         "name": "Helen Li",
         "position": "Advocacy Vice President",
+        "committee": "Advocacy",
         "bio": "Hi everyone! I'm a fourth-year studying psychology and chemistry. I lead projects within the Advocacy Committee and work closely with All Souls Episcopal Parish to secure grants and volunteer opportunities. In my free time I'm either reading, working out, or performing with my lion dance group.",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Saesha Sharda",
+        "position": "Advocacy Chair",
+        "committee": "Advocacy",
+        "bio": "Hi everyone! I am a 2nd year studying Molecular and Cell Bio. I am so excited to be Advocacy Chair this year and bring new ideas to life! Outside of academics, I enjoy singing and sewing!",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Kylie Huang",
+        "position": "Advocacy Chair",
+        "committee": "Advocacy",
+        "bio": "Hello! My name is Kylie and I'm a third-year majoring in MCB and Business. As an Advocacy Chair, I work with our committee members to organize housing workshops, engage in policy advocacy, and connect our team to resources and partnerships. I'll also be helping facilitate our Health and the Unhoused DeCal! Outside of USMO, I love tap dancing, hiking, and cooking fun meals :)",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Kayli Huang",
+        "position": "Advocacy Chair",
+        "committee": "Advocacy",
+        "bio": "Hi! I'm Kayli, a third year majoring in applied math and minoring in bioengineering. As one of the advocacy chairs, I help organize projects to share housing, legal, and health resources with the community we serve through our weekly outreaches to encampments. During my free time, I enjoy visiting national parks, crocheting, and tap dancing!",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
     }
