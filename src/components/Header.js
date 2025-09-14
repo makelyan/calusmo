@@ -29,8 +29,8 @@ function Header() {
             <Link to="/join-us" className={`nav-item ${currentPage === '/our-team' ? 'active' : ''}`}>Join Us</Link>
             <Link to="/contact" className={`nav-item ${currentPage === '/contact' ? 'active' : ''}`}>Contact</Link>
             <Link to="/resources" className={`nav-item ${currentPage === '/resources' ? 'active' : ''}`}>Resources</Link>
-            <Link to="https://gofund.me/a035f677" target="_blank" rel="noopener noreferrer" className={`nav-item ${currentPage == '/donate' ? 'active' : ''}`}>Donate</Link>
-            <Link to="https://decal.studentorg.berkeley.edu/courses/7193" target="_blank" rel="noopener noreferrer" className={`nav-item ${currentPage == '/decal' ? 'active' : ''}`}>Decal</Link>
+            <Link to="https://gofund.me/a035f677" target="_blank" rel="noopener noreferrer" className={`nav-item ${currentPage === '/donate' ? 'active' : ''}`}>Donate</Link>
+            <Link to="https://decal.studentorg.berkeley.edu/courses/7193" target="_blank" rel="noopener noreferrer" className={`nav-item ${currentPage === '/decal' ? 'active' : ''}`}>Decal</Link>
           </Nav>
         </Navbar.Collapse>
           <button className="hamburger">
