@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../styles/joinus.css"
 import { Helmet } from 'react-helmet-async';
+import { Link } from "react-router-dom";
 import OutreachImage from '../images/OutreachImage.jpeg';
 
 export default function JoinUs() {
@@ -9,12 +10,12 @@ export default function JoinUs() {
   return (
     <>
     <Helmet>
-        <title>Join Us!</title>
+        <title>Join Us</title>
         <link rel="canonical" href="https://calusmo.org/join-us" />
     </Helmet>
     <Header />
       <div className="header-container">
-        <h1>Join Us!</h1>
+        <h1>Join Us</h1>
         <p>
             All undergraduate students regardless of year and prior experience are welcome to join USMO.
         </p>
@@ -25,10 +26,7 @@ export default function JoinUs() {
             </h2>
                 <p className="joinus-text">
                 <span>
-                    We are now recruiting new members for Fall 2025!
-                    Fill out our <a href="https://tinyurl.com/usmofall25recruitment" target="_blank" rel="noreferrer">interest form</a> to join our mailing list, 
-                    or <b><a href="https://forms.gle/9KAddPc3bghkJeyR9" target="_blank" rel="noreferrer">Apply Here!</a></b> 
-                    {/* due date */}
+                    We are no longer recruiting new members for Fall 2025. However, feel free to <Link to="/contact-us">contact us</Link> with any questions!
                 </span>
                 </p>
         
@@ -36,20 +34,14 @@ export default function JoinUs() {
                 Infosessions 
             </h2>
                 <p className="joinus-text">
-                <ul>
-                    <li>
-                        Thursday September 4, 2025 from 8-9 PM @ Wheeler 24
-                    </li>
-                    <li>
-                        Wednesday September 10, 2025 from 8-9 PM @ Wheeler 24
-                    </li>
-                    <li>
+                {/* <ul>
+                    <li> */}
                         <a href="/downloads/infosession_fa25_usmo.pdf">
-                            Infosession Slides
+                            Infosession Slides from Fall 2025
                             <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i>
                         </a>
-                    </li>
-                </ul>
+                    {/* </li>
+                </ul> */}
                 </p>
         <hr className="joinus-hr" />
             <h2 className="joinus-header">
