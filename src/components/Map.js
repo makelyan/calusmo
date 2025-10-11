@@ -59,6 +59,18 @@ function ResourceCard({ resource, isFirst, isLast }) {
                     {resource.id}
                 </div>
                 <div className="card-title">{resource.name}</div>
+                <div
+                    className={`dropdown-arrow ${expanded ? 'rotated' : ''}`}
+                    style={{
+                        marginLeft: 'auto',
+                        transition: 'transform 0.3s ease',
+                        transform: expanded ? 'rotate(0deg)' : 'rotate(90deg)',
+                        fontSize: '16px',
+                        cursor: 'pointer'
+                    }}
+                >
+                    ▼
+                </div>
             </div>
 
             {expanded && (

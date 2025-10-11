@@ -82,10 +82,10 @@
 
 /* Partnerships Styles */
 .our-partnerships-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
     gap: 1.0rem;
-    justify-content: center;
     /* align-items: start;  */
 }
 

@@ -1,0 +1,356 @@
+[
+  {
+    "line": "51B",
+    "stop": "College Av & Rockridge BART (51188)",
+    "lat": 37.8450364967231,
+    "lon": -122.251931498593
+  },
+  {
+    "line": "51B",
+    "stop": "College Av & Chabot Rd (50955)",
+    "lat": 37.8473535623613,
+    "lon": -122.252130197266
+  },
+  {
+    "line": "51B",
+    "stop": "College Av & Claremont Av (51506)",
+    "lat": 37.8489273679214,
+    "lon": -122.252342027002
+  },
+  {
+    "line": "51B",
+    "stop": "College Av & Alcatraz Av (51507)",
+    "lat": 37.8510257372843,
+    "lon": -122.252536109811
+  },
+  {
+    "line": "51B",
+    "stop": "College Av & Woolsey St (52323)",
+    "lat": 37.8537488129844,
+    "lon": -122.252827234036
+  },
+  {
+    "line": "51B",
+    "stop": "College Av & Ashby Av (55955)",
+    "lat": 37.8573488756187,
+    "lon": -122.252978891043
+  },
+  {
+    "line": "51B",
+    "stop": "College Av & Russell St (51199)",
+    "lat": 37.858638144003,
+    "lon": -122.253277995391
+  },
+  {
+    "line": "51B",
+    "stop": "College Av & Derby St (59977)",
+    "lat": 37.8619633311538,
+    "lon": -122.253625603133
+  },
+  {
+    "line": "51B",
+    "stop": "College Av & Parker St (57774)",
+    "lat": 37.8633971787501,
+    "lon": -122.253752250921
+  },
+  {
+    "line": "51B",
+    "stop": "College Av & Haste St (52223)",
+    "lat": 37.8667476782236,
+    "lon": -122.25421033865
+  },
+  {
+    "line": "51B",
+    "stop": "Bancroft Way & College Av (59555)",
+    "lat": 37.8693939333092,
+    "lon": -122.25515346046
+  },
+  {
+    "line": "51B",
+    "stop": "Bancroft Way & Telegraph Av (54455)",
+    "lat": 37.8686430361844,
+    "lon": -122.260505003074
+  },
+  {
+    "line": "51B",
+    "stop": "Bancroft Way & Dana St (55593)",
+    "lat": 37.8685473122049,
+    "lon": -122.261768786305
+  },
+  {
+    "line": "51B",
+    "stop": "Bancroft Way & Ellsworth St (54655)",
+    "lat": 37.8682455745541,
+    "lon": -122.264076540548
+  },
+  {
+    "line": "51B",
+    "stop": "",
+    "lat": 37.8676624943883,
+    "lon": -122.267681414936
+  },
+  {
+    "line": "51B",
+    "stop": "Shattuck Sq & Center St (Downtown Berkeley BART) (55559)",
+    "lat": 37.8699627540014,
+    "lon": -122.267820332062
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & Shattuck Av (50444)",
+    "lat": 37.8722683773143,
+    "lon": -122.268804396062
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & Martin Luther King Jr Way (57557)",
+    "lat": 37.8717528141477,
+    "lon": -122.272869485495
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & Grant St (53136)",
+    "lat": 37.8714649233934,
+    "lon": -122.27520262763
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & California St (51583)",
+    "lat": 37.8708872205527,
+    "lon": -122.280300992235
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & Sacramento St (55722)",
+    "lat": 37.8706915528703,
+    "lon": -122.281626325764
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & Acton St (51573)",
+    "lat": 37.8703100264831,
+    "lon": -122.284684688868
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & Bonar St (57335)",
+    "lat": 37.8699338667967,
+    "lon": -122.287423256739
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & San Pablo Av (52566)",
+    "lat": 37.8693393962254,
+    "lon": -122.29186128328
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & 9th St (59004)",
+    "lat": 37.868898578721,
+    "lon": -122.294339708952
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & 6th St (51105)",
+    "lat": 37.8682130319659,
+    "lon": -122.29741776801
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & 4th St (52355)",
+    "lat": 37.8677982770952,
+    "lon": -122.299757062068
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & 3rd St (58883)",
+    "lat": 37.8673422355844,
+    "lon": -122.300678753062
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & W Frontage Rd (57827)",
+    "lat": 37.8662228049915,
+    "lon": -122.305689584875
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & Marina Blvd (54393)",
+    "lat": 37.865154358002,
+    "lon": -122.310680359907
+  },
+  {
+    "line": "51B",
+    "stop": "University Av & Bait Shop (58660)",
+    "lat": 37.8638220316433,
+    "lon": -122.313504680038
+  },
+  {
+    "line": 6,
+    "stop": "10th St & Washington St (51636)",
+    "lat": 37.8023224438788,
+    "lon": -122.274492193826
+  },
+  {
+    "line": 6,
+    "stop": "11th St & Clay St (59444)",
+    "lat": 37.8029645390843,
+    "lon": -122.274465167166
+  },
+  {
+    "line": 6,
+    "stop": "Broadway & 12th St (53108)",
+    "lat": 37.8032344507534,
+    "lon": -122.271772117631
+  },
+  {
+    "line": 6,
+    "stop": "Broadway & 15th St (52894)",
+    "lat": 37.8050488364462,
+    "lon": -122.27059753837
+  },
+  {
+    "line": 6,
+    "stop": "Broadway & 17th St (53335)",
+    "lat": 37.8065202118983,
+    "lon": -122.269725921455
+  },
+  {
+    "line": 6,
+    "stop": "Uptown Transit Center (57999)",
+    "lat": 37.8096000867218,
+    "lon": -122.269412342161
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & 24th St (59991)",
+    "lat": 37.813257487431,
+    "lon": -122.268799348189
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & 27th St (51634)",
+    "lat": 37.8158915039316,
+    "lon": -122.268142703564
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & 30th St (53036)",
+    "lat": 37.8189350498555,
+    "lon": -122.267335500724
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & 34th St (53038)",
+    "lat": 37.8223447745078,
+    "lon": -122.266425328532
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & 38th St (55375)",
+    "lat": 37.8270733949889,
+    "lon": -122.264997688822
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & 40th St (56665)",
+    "lat": 37.8298417445368,
+    "lon": -122.264322592513
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & 45th St (52935)",
+    "lat": 37.833335127033,
+    "lon": -122.263222866101
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & Claremont Av (56646)",
+    "lat": 37.8387452178456,
+    "lon": -122.261946073482
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & 55th St (53548)",
+    "lat": 37.8403655784535,
+    "lon": -122.262006821665
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & 59th St. (55002)",
+    "lat": 37.8447578780204,
+    "lon": -122.261405147617
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & Alcatraz Av (57788)",
+    "lat": 37.8505968104281,
+    "lon": -122.260410957852
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & Woolsey St (53546)",
+    "lat": 37.8533793900146,
+    "lon": -122.259957460791
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & Ashby Av (57050)",
+    "lat": 37.8562212020163,
+    "lon": -122.259620561831
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & Stuart St (51005)",
+    "lat": 37.8598910540535,
+    "lon": -122.259417534841
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & Blake St (53542)",
+    "lat": 37.8648453577842,
+    "lon": -122.258535834841
+  },
+  {
+    "line": 6,
+    "stop": "Telegraph Av & Haste St (51244)",
+    "lat": 37.8666610086276,
+    "lon": -122.258653019501
+  },
+  {
+    "line": 6,
+    "stop": "",
+    "lat": 37.8686634838714,
+    "lon": -122.25929833014
+  },
+  {
+    "line": 6,
+    "stop": "Bancroft Way & Telegraph Av (56888)",
+    "lat": 37.8686260937312,
+    "lon": -122.260316599891
+  },
+  {
+    "line": 6,
+    "stop": "Bancroft Way & Dana St (55593)",
+    "lat": 37.868806141269637,
+    "lon": -122.261761226743
+  },
+  {
+    "line": 6,
+    "stop": "Bancroft Way & Ellsworth St (54655)",
+    "lat": 37.8682204756538,
+    "lon": -122.264084956523
+  },
+  {
+    "line": 6,
+    "stop": "",
+    "lat": 37.8680706125033,
+    "lon": -122.2656283428
+  },
+  {
+    "line": 6,
+    "stop": "Oxford St & Center St (53517)",
+    "lat": 37.8714753231078,
+    "lon": -122.26580000416
+  }
+]

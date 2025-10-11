@@ -10,6 +10,7 @@ import "../styles/resources.css";
 import { Helmet } from 'react-helmet-async';
 
 import resourcesData from "../data/resources.json";
+import busData from "../data/bus_lines.json";
 
 export default function Resources() {
     const [activeCategories, setActiveCategories] = useState(categories);
@@ -34,13 +35,14 @@ export default function Resources() {
 
     useEffect(() => {
         const map = L.map('map').setView([37.84, -122.26], 12);
-
+    
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
-
+    
         const markerMap = {};
+    
         filteredResources.forEach(resource => {
             if (resource.lat && resource.lon) {
                 const icon = createMarkerIcon(categoryColors[resource.category] || '#ccc', resource.id);
@@ -49,13 +51,59 @@ export default function Resources() {
                 markerMap[resource.id] = marker;
             }
         });
+    
+        const busLineColors = {
+            '51B': '#00643C',
+            '6': '#0255fa'
+        };
+    
+        const busLines = {};
+        busData.forEach(stop => {
+            if (!busLines[stop.line]) busLines[stop.line] = [];
+            busLines[stop.line].push(stop);
+        });
+    
+        Object.keys(busLines).forEach(line => {
+            const stops = busLines[line];
+            const coords = stops.map(s => [s.lat, s.lon]);
+            const polyline = L.polyline(coords, {
+                color: busLineColors[line] || '#000000',
+                weight: 6,
+                opacity: 0.9
+            }).addTo(map);
+    
+            polyline.bindTooltip(`Bus Line: ${line}`, { permanent: false, sticky: true, direction: 'top' });
+    
+            stops.forEach(stop => {
+                const marker = L.circleMarker([stop.lat, stop.lon], {
+                    radius: 2.5,
+                    fillColor: busLineColors[line] || '#000000',
+                    color: busLineColors[line] || '#000000',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 1
+                }).addTo(map);
+    
+                if (stop.stop && stop.stop.trim() !== "") {
+                    marker.bindTooltip(`Stop: ${stop.stop}<br>Line: ${line}`, { permanent: false, sticky: true, direction: 'top' });
+                }
+            });
+        });
+    
+        const allCoords = [
+            ...filteredResources.filter(r => r.lat && r.lon).map(r => [parseFloat(r.lat), parseFloat(r.lon)]),
+            ...busData.map(s => [s.lat, s.lon])
+        ];
+    
+        if (allCoords.length) map.fitBounds(allCoords);
+    
         window.markerMap = markerMap;
-
+    
         return () => {
             map.remove();
             window.markerMap = null;
         };
-    }, [filteredResources]);
+    }, [filteredResources, busData]);
 
     return (
         <>
