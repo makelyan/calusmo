@@ -103,7 +103,7 @@ export default function Resources() {
             map.remove();
             window.markerMap = null;
         };
-    }, [filteredResources, busData]);
+    }, [filteredResources]);
 
     return (
         <>
