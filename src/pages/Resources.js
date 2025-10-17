@@ -48,6 +48,7 @@ export default function Resources() {
                 const icon = createMarkerIcon(categoryColors[resource.category] || '#ccc', resource.id);
                 const marker = L.marker([parseFloat(resource.lat), parseFloat(resource.lon)], { icon }).addTo(map);
                 marker.bindPopup(`<b>${resource.name}</b><br>${resource.address}`);
+                marker.bindTooltip(`<b>${resource.name}</b><br>${resource.address}`, { permanent: false, sticky: true, direction: 'top' });
                 markerMap[resource.id] = marker;
             }
         });

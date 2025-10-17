@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Berkeley Free Clinic",
+    "link": "",
     "category": "Medical Services",
     "description": "Free Tuberculosis skin tests, STI/UTI screenings, peer counseling, and dental care.",
     "address": "2339 Durant Avenue, Berkeley, CA 94704",
@@ -14,6 +15,7 @@
   {
     "id": 2,
     "name": "Suitcase Clinic (General Clinic)",
+    "link": "",
     "category": "Medical Services",
     "description": "Offers foot washing, haircuts, acupuncture and massages.",
     "address": "2407 Dana Street, Berkeley, CA 94704",
@@ -26,6 +28,7 @@
   {
     "id": 3,
     "name": "Suitcase Clinic (Women's Clinic)",
+    "link": "",
     "category": "Medical Services",
     "description": "Provides medical services for women. Offers dinner at 7PM on Mondays.",
     "address": "2236 Parker Street, Berkeley, CA 94704",
@@ -38,6 +41,7 @@
   {
     "id": 4,
     "name": "Suitcase Clinic (LGBTQ+ Clinic)",
+    "link": "",
     "category": "Medical Services",
     "description": "",
     "address": "2300 Bancroft Way, Berkeley, CA 94704",
@@ -50,6 +54,7 @@
   {
     "id": 5,
     "name": "Lifelong Dental Care (Berkeley)",
+    "link": "",
     "category": "Medical Services",
     "description": "",
     "address": "616 16th St, Oakland, CA 94612",
@@ -62,6 +67,7 @@
   {
     "id": 6,
     "name": "Lifelong Dental Care (Downtown Oakland)",
+    "link": "",
     "category": "Medical Services",
     "description": "",
     "address": "1860 Alcatraz Ave, Berkeley, CA 94703",
@@ -74,6 +80,7 @@
   {
     "id": 7,
     "name": "Lifelong Dental Care (East Oakland)",
+    "link": "",
     "category": "Medical Services",
     "description": "",
     "address": "10700 MacArthur Blvd., Oakland, CA 94605",
@@ -85,7 +92,21 @@
   },
   {
     "id": 8,
+    "name": "Lifelong Medical Care",
+    "link": "https://lifelongmedical.org/locations/berkeley-trust-health-center/",
+    "category": "Medical Services",
+    "description": "Provides mental health support and psychiatry services.",
+    "address": "830 University Ave, Berkeley, CA 94710",
+    "contact": "(510) 486-3463",
+    "hours": "Monday to Friday 8:30 AM - 4:30 PM",
+    "": "",
+    "lat": 37.867802,
+    "lon": -122.297195
+  },
+  {
+    "id": 9,
     "name": "Baywell Health (Downtown Oakland)",
+    "link": "",
     "category": "Medical Services",
     "description": "",
     "address": "700 Adeline St., Oakland, CA 94607",
@@ -96,8 +117,9 @@
     "lon": -122.287407
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Baywell Health (East Oakland)",
+    "link": "",
     "category": "Medical Services",
     "description": "",
     "address": "7450 International Blvd., Oakland, CA 94621",
@@ -108,8 +130,9 @@
     "lon": -122.185545
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "La Clinica (Fruitvale)",
+    "link": "",
     "category": "Medical Services",
     "description": "",
     "address": "3451 East 12th St., Oakland, CA 94601",
@@ -120,8 +143,9 @@
     "lon": -122.223535
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "La Clinica (Havenscourt)",
+    "link": "",
     "category": "Medical Services",
     "description": "",
     "address": "1390 66th Ave., Oakland, CA 94621",
@@ -132,8 +156,9 @@
     "lon": -122.193377
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Eastmont Wellness Center",
+    "link": "",
     "category": "Medical Services",
     "description": "",
     "address": "6955 Foothill Blvd., Suite 200, Oakland, CA 94605",
@@ -144,8 +169,9 @@
     "lon": -122.17336
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Native American Health Center",
+    "link": "",
     "category": "Medical Services",
     "description": "Appointments available the 2nd and 4th Saturday of each month.",
     "address": "3124 International Blvd., Oakland, CA 94601",
@@ -156,8 +182,9 @@
     "lon": -122.226286
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Asian Health Services",
+    "link": "",
     "category": "Medical Services",
     "description": "",
     "address": "818 Webster St., Oakland, CA 94607",
@@ -168,8 +195,9 @@
     "lon": -122.270942
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Bonita House - Berkeley Wellness Center",
+    "link": "",
     "category": "Medical Services",
     "description": "Provides mental health support.",
     "address": "1802 Fairview St, Berkeley, CA 94703",
@@ -180,10 +208,11 @@
     "lon": -122.272543
   },
   {
-    "id": 16,
+    "id": 17,
     "name": "Berkeley Food Network",
+    "link": "",
     "category": "Food",
-    "description": "Offers free meals. Remember fo bring reusable bags to store food and leave your dogs at home!",
+    "description": "Offers free meals. Remember to bring reusable bags to store food and leave your dogs at home!",
     "address": "1925 Ninth Street, Berkeley, CA 94710",
     "contact": "(510) 616-5383",
     "hours": "Tuesday & Thursday 11 AM - 3 PM, 5 PM - 7 PM",
@@ -192,8 +221,9 @@
     "lon": -122.29422
   },
   {
-    "id": 17,
+    "id": 18,
     "name": "Berkeley Food Pantry",
+    "link": "",
     "category": "Food",
     "description": "",
     "address": "1600 Sacramento St, Berkeley, CA 94702",
@@ -204,8 +234,9 @@
     "lon": -122.283081
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "Insight Housing",
+    "link": "",
     "category": "Food",
     "description": "",
     "address": "2855 Telegraph Ave Suite 601, Berkeley, CA 94705",
@@ -216,8 +247,9 @@
     "lon": -122.258773
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "Manna From Heaven Soup Kitchen ",
+    "link": "",
     "category": "Food",
     "description": "Located in the first floor of UCSF Children's Hospital.",
     "address": "5316 Telegraph Ave, Oakland, CA 94609",
@@ -228,8 +260,9 @@
     "lon": -122.262009
   },
   {
-    "id": 20,
+    "id": 21,
     "name": "Night on the Streets Food Bank",
+    "link": "",
     "category": "Food",
     "description": "",
     "address": "1630 Berkeley Way, Berkeley, CA 94703",
@@ -240,8 +273,9 @@
     "lon": -122.278503
   },
   {
-    "id": 21,
+    "id": 22,
     "name": "Food Not Bombs",
+    "link": "",
     "category": "Food",
     "description": "",
     "address": "4799 Shattuck Ave., Oakland, CA 94609",
@@ -252,20 +286,22 @@
     "lon": -122.264122
   },
   {
-    "id": 22,
+    "id": 23,
     "name": "Dorothy Day House",
+    "link": "",
     "category": "Food",
     "description": "Provides free services: meals, showers, laundry, clothing, mail services, internet access, daytime respite, housing support, DMV & ID assistance, workforce training, and medical/addiction referrals.",
     "address": "1931 Center Street, Berkeley, CA 94704",
-    "contact": "(510) 705-1325 - Daytime\n (510) 705-1516 - After hours",
+    "contact": "(510) 705-1325 - Daytime\n(510) 705-1516 - After hours",
     "hours": "Daily 8:15 AM - 11:30 AM, 1 - 4 PM",
     "": "",
     "lat": 37.870082,
     "lon": -122.271838
   },
   {
-    "id": 23,
+    "id": 24,
     "name": "St. Vincent De Paul Community Center",
+    "link": "",
     "category": "Laundry",
     "description": "Provides free laundry and other services.",
     "address": "2272 San Pablo Ave, Oakland, CA 94612",
@@ -276,8 +312,9 @@
     "lon": -122.273668
   },
   {
-    "id": 24,
+    "id": 25,
     "name": "Bing Bong Washing",
+    "link": "",
     "category": "Laundry",
     "description": "Provides free laundry on the first Wednesday of every month.",
     "address": "2420 Parker St, Berkeley, CA 94704",
@@ -288,8 +325,9 @@
     "lon": -122.259284
   },
   {
-    "id": 25,
+    "id": 26,
     "name": "West Campus Pool Free Shower Program",
+    "link": "",
     "category": "Hygiene",
     "description": "Provides free showers, with no registration needed.",
     "address": "2100 Browning St., Berkeley, CA 94702",
@@ -300,10 +338,11 @@
     "lon": -122.288421
   },
   {
-    "id": 26,
+    "id": 27,
     "name": "Women's Daytime Drop-in Center",
+    "link": "",
     "category": "Hygiene",
-    "description": "Provides free meals and women's hygenic care.",
+    "description": "Provides free meals and women's hygienic care.",
     "address": "2218 Acton St, Berkeley, CA 94702",
     "contact": "(510) 548-2884",
     "hours": "Monday to Friday 9 AM - 1 PM",
@@ -312,8 +351,9 @@
     "lon": -122.284293
   },
   {
-    "id": 27,
+    "id": 28,
     "name": "North County Housing Resource Center",
+    "link": "",
     "category": "Housing Help",
     "description": "",
     "address": "2809 Telegraph Ave. Suite 202, Berkeley, CA 94705",
@@ -324,8 +364,9 @@
     "lon": -122.258997
   },
   {
-    "id": 28,
+    "id": 29,
     "name": "Family Front Door",
+    "link": "",
     "category": "Housing Help",
     "description": "Provides support for homeless families with a child under 18.",
     "address": "",
@@ -336,8 +377,9 @@
     "lon": ""
   },
   {
-    "id": 29,
+    "id": 30,
     "name": "Eden I&R",
+    "link": "",
     "category": "Housing Help",
     "description": "Intake for individuals/families experiencing homelessness. Provides information on affordable shelter and permanent housing.",
     "address": "",
@@ -348,8 +390,9 @@
     "lon": ""
   },
   {
-    "id": 30,
+    "id": 31,
     "name": "Homeless Action Center (Berkeley Office)",
+    "link": "",
     "category": "Legal Help",
     "description": "Provides public benefits advocacy for free to unhoused and disabled residents of Alameda County.",
     "address": "3126 Shattuck Ave, Berkeley, CA 94705",
@@ -360,8 +403,9 @@
     "lon": -122.266417
   },
   {
-    "id": 31,
+    "id": 32,
     "name": "Homeless Action Center (Oakland Office)",
+    "link": "",
     "category": "Legal Help",
     "description": "Provides public benefits advocacy for free to unhoused and disabled residents of Alameda County.",
     "address": "2601 San Pablo Avenue, Oakland, CA 94612",
@@ -372,8 +416,9 @@
     "lon": -122.275805
   },
   {
-    "id": 32,
+    "id": 33,
     "name": "Housing and Economic Rights Advocates (HERA)",
+    "link": "",
     "category": "Legal Help",
     "description": "Provides free legal services to low and moderate income residents to help tenants, homeowners, and houseless individuals",
     "address": "",
@@ -384,8 +429,9 @@
     "lon": ""
   },
   {
-    "id": 33,
+    "id": 34,
     "name": "Youth Spirit Artworks",
+    "link": "",
     "category": "Legal Help",
     "description": "",
     "address": "1740 Alcatraz Ave, Berkeley, CA 94703",
@@ -396,8 +442,9 @@
     "lon": -122.272377
   },
   {
-    "id": 34,
+    "id": 35,
     "name": "Peer Wellness Collective",
+    "link": "",
     "category": "Miscellaneous",
     "description": "Provides storage lockers, and mail and payee services.",
     "address": "3234 Adeline St., Berkeley, CA 94703",
@@ -408,8 +455,9 @@
     "lon": -122.27109
   },
   {
-    "id": 35,
+    "id": 36,
     "name": "Berkeley Sacred Rest Drop-In Center",
+    "link": "",
     "category": "Miscellaneous",
     "description": "Connects people with city, county, and non-profit service providers.",
     "address": "2427 Haste St, Berkeley, CA 94704",
@@ -420,8 +468,22 @@
     "lon": -122.259632
   },
   {
-    "id": 36,
+    "id": 37,
+    "name": "California Prevention and Education Project (Cal-PEP)",
+    "link": "https://sites.google.com/calpep.org/calpep/contact-us?authuser=0&pli=1",
+    "category": "Miscellaneous",
+    "description": "Provides HIV & Hepatitis C testing, hygiene kits, help with coordinated entry, mental health services, and more.",
+    "address": "2811 Adeline St. Oakland, CA 94608",
+    "contact": "(510) 874-7850",
+    "hours": "Monday to Friday 9 AM - 5 PM",
+    "": "",
+    "lat": 37.820588,
+    "lon": -122.282628
+  },
+  {
+    "id": 38,
     "name": "Berkeley DMV",
+    "link": "",
     "category": "DMV Locations",
     "description": "",
     "address": "2959 San Pablo Ave B, Berkeley, CA 94702",
@@ -432,8 +494,9 @@
     "lon": -122.286688
   },
   {
-    "id": 37,
+    "id": 39,
     "name": "Oakland DMV",
+    "link": "",
     "category": "DMV Locations",
     "description": "",
     "address": "5300 Claremont Ave, Oakland, CA 94618",
@@ -444,9 +507,10 @@
     "lon": -122.259483
   },
   {
-    "id": 38,
+    "id": 40,
     "name": "Social Security Administration",
-    "category": "Government Organizations",
+    "link": "",
+    "category": "Government",
     "description": "",
     "address": "2045 Allston Way, Berkeley, CA 94704",
     "contact": "(877) 521-4696",
@@ -456,15 +520,16 @@
     "lon": -122.269484
   },
   {
-    "id": 39,
+    "id": 41,
     "name": "US Postal Service",
-    "category": "Government Organizations",
+    "link": "",
+    "category": "Government",
     "description": "",
     "address": "2515 Durant Ave., Berkeley, CA 94704",
     "contact": "(510) 649-6762",
     "hours": "Monday to Friday 9 AM - 5 PM",
     "": "",
     "lat": 37.86984,
-    "lon": 122.260444
+    "lon": -122.260444
   }
 ]
