@@ -126,5 +126,37 @@
         "bio": "Hi! I'm Kayli, a third year majoring in applied math and minoring in bioengineering. As one of the advocacy chairs, I help organize projects to share housing, legal, and health resources with the community we serve through our weekly outreaches to encampments. During my free time, I enjoy visiting national parks, crocheting, and tap dancing!",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "placeholder",
+        "position": "",
+        "committee": "Publicity",
+        "bio": "",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Kelly Yu",
+        "position": "Publicity Chair",
+        "committee": "Publicity",
+        "bio": "Hey everyone! My name is Kelly and I am a sophomore studying Neuroscience and Public Health. My favorite aspect of USMO and healthcare as a whole is the ability to connect with the unhoused and patients. As publicity chair, my projects focus on representing current resources and news within the community and USMO. Outside of school, I love skiing, traveling, exploring new pastry and tea shops, and photography!",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Maryam Akelyan",
+        "position": "Publicity Chair",
+        "committee": "Publicity",
+        "bio": "Hi! I'm Maryam, a junior majoring in Data Science and MCB! As a publicity chair, I maintain the website you're looking at right now, help manage our social media, and work with various committees to develop resources for the club and the communities we serve at outreach. In my free time I like watching sit-coms and sci-fi shows :)",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "placeholder",
+        "position": "",
+        "committee": "Publicity",
+        "bio": "",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
     }
 ]

@@ -6,7 +6,7 @@ import ourTeamData from '../data/ourteam.json';
 import { Helmet } from 'react-helmet-async';
 
 export default function OurTeam() {
-  const committees = ["Internal", "External", "Advocacy", "Finance"];
+  const committees = ["Internal", "External", "Advocacy", "Finance", "Publicity"];
   return (
     <>
     <Helmet>

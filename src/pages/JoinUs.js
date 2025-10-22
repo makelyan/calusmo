@@ -95,9 +95,6 @@ export default function JoinUs() {
 
       </div>
 
-
-      
-
       <Footer />
     </>
   );
