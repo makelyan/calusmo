@@ -71,6 +71,13 @@
     margin-right: 60px;
 }
 
+.quick-links-section ul {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 60px;
+}
+
 .quick-links p {
     font-size: 20px;
     text-align: left;

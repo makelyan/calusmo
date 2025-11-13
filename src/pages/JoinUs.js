@@ -3,7 +3,10 @@ import Footer from "../components/Footer";
 import "../styles/joinus.css"
 import { Helmet } from 'react-helmet-async';
 import { Link } from "react-router-dom";
-import OutreachImage from '../images/OutreachImage.jpeg';
+import OutreachImage1 from '../images/outreach-1.jpg';
+// import OutreachImage2 from '../images/outreach-2.jpg';
+import OutreachImage3 from '../images/outreach-3.jpg';
+
 
 export default function JoinUs() {
 
@@ -89,7 +92,9 @@ export default function JoinUs() {
             <p className="joinus-text">
                 During outreach, we go to various encampments around Berkeley and Oakland, and pass out food, medical supplies, hygiene materials, and more.
                 <br></br>
-                <img src={OutreachImage} alt="Outreach" className="joinus-text" style={{ display: "block", margin: "12 auto" }} />
+                <img src={OutreachImage3} alt="Outreach" className="joinus-text" style={{ display: "block", margin: "12 auto" }} />
+                <img src={OutreachImage1} alt="Outreach" className="joinus-text" style={{ display: "block", margin: "12 auto" }} />
+                {/* <img src={OutreachImage2} alt="Outreach" className="joinus-text" style={{ display: "block", margin: "12 auto" }} /> */}
             </p>
 
 

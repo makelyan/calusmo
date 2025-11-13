@@ -164,18 +164,45 @@ export default function Resources() {
 
                 <div className="quick-links">
                     <h2 className="quick-links">Quick Links</h2>
+
                     <p>Downloads</p>
-                    <ul> 
-                        {/* implicity the root directory here is /public */}
-                        <li><a href="/downloads/Resources_Map_USMO.pdf">Resources Brochure with Map
-                            <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
-                        <li><a href="/downloads/Housing_Resources_USMO.pdf">Housing Resources Brochure
-                            <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
-                        <li><a href="/downloads/Coordinated_Entry_USMO.pdf">Coordinated Entry Guide
-                            <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
-                        <li><a href="/downloads/Sweeps_USMO.pdf">What to do if you're stopped, searched, or swept while unhoused
-                            <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
-                    </ul>
+                        <ul className="quick-links-section"> 
+                            {/* implicity the root directory here is /public */}
+                            <li><a href="/downloads/Resources_Map_USMO.pdf">Resources Brochure with Map
+                                <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
+                            <li><a href="/downloads/Housing_Resources_USMO.pdf">Housing Resources Brochure
+                                <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
+                            <li><a href="/downloads/Coordinated_Entry_USMO.pdf">Coordinated Entry Guide
+                                <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
+                            <li><a href="/downloads/Sweeps_USMO.pdf">What to do if you're stopped, searched, or swept while unhoused
+                                <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
+                        </ul>
+                        
+                    <br></br>
+
+                    <p>Mental Health Services</p>
+                        <ul className="quick-links-section"> 
+                            <li><a href="https://www.achch.org/mobile-health.html">Alameda Health Services Mobile Health Van Schedule
+                                <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i></a></li>
+                            <li><a href="www.acbhcs.org/contact-us/">Alameda County Behavioral Health Mental Health
+                                <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i></a>
+                                    <ul><li>Treatment & Referral Line: (800) 491-9099</li></ul>
+                            </li>
+                            <li><a href="/downloads/SUD_Helpline_Brochure_English.pdf">Alameda County Behavioral Health Substance Use Brochure
+                                <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i></a></li>
+                                    <ul><li>Treatment & Referral Line: (844) 682-7215</li></ul>
+                            <li><a href="https://www.crisissupport.org/get-help-now/alameda-county-crisis-referrals/">Alameda County Crisis Line
+                                <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i></a></li>
+                            <li><a href="https://www.oaklandca.gov/Public-Safety-Streets/Crime-Prevention/Mobile-Assistance-Community-Responders-of-Oakland-MACRO">MACRO-Oakland
+                                <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i></a>
+                                    <ul><li>Treatment & Referral Line: (510) 446-2276</li></ul>
+                            </li>
+                            <li><a href="https://bonitahouse.org/berkeley-wellness-center/">Berkeley Wellness Center
+                                <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i></a></li>
+                            <li><a href="https://berkeleyca.gov/safety-health/mental-health">Berkeley Mental Health
+                                <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i></a></li>
+                        </ul>
+
                 </div>
             </div>
             <Footer />

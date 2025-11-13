@@ -66,6 +66,19 @@
   },
   {
     "id": 6,
+    "name": "Lifelong Medical Care (Berkeley)",
+    "link": "",
+    "category": "Medical Services",
+    "description": "Provides a wide range of medical services to unhoused individuals.",
+    "address": "384 14th St, Oakland, CA 94612",
+    "contact": "(510) 210-5050",
+    "hours": "Monday to Friday 8:30 AM - 4:30 PM",
+    "": "",
+    "lat": 37.803739,
+    "lon": -122.269585
+  },
+  {
+    "id": 7,
     "name": "Lifelong Dental Care (Downtown Oakland)",
     "link": "",
     "category": "Medical Services",
@@ -78,7 +91,7 @@
     "lon": -122.26979
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Lifelong Dental Care (East Oakland)",
     "link": "",
     "category": "Medical Services",
@@ -91,7 +104,7 @@
     "lon": -122.150038
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Lifelong Medical Care",
     "link": "https://lifelongmedical.org/locations/berkeley-trust-health-center/",
     "category": "Medical Services",
@@ -104,7 +117,7 @@
     "lon": -122.297195
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Baywell Health (Downtown Oakland)",
     "link": "",
     "category": "Medical Services",
@@ -117,7 +130,7 @@
     "lon": -122.287407
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Baywell Health (East Oakland)",
     "link": "",
     "category": "Medical Services",
@@ -130,7 +143,7 @@
     "lon": -122.185545
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "La Clinica (Fruitvale)",
     "link": "",
     "category": "Medical Services",
@@ -143,7 +156,7 @@
     "lon": -122.223535
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "La Clinica (Havenscourt)",
     "link": "",
     "category": "Medical Services",
@@ -156,7 +169,7 @@
     "lon": -122.193377
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Eastmont Wellness Center",
     "link": "",
     "category": "Medical Services",
@@ -169,7 +182,7 @@
     "lon": -122.17336
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Native American Health Center",
     "link": "",
     "category": "Medical Services",
@@ -182,7 +195,7 @@
     "lon": -122.226286
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Asian Health Services",
     "link": "",
     "category": "Medical Services",
@@ -195,7 +208,7 @@
     "lon": -122.270942
   },
   {
-    "id": 16,
+    "id": 17,
     "name": "Bonita House - Berkeley Wellness Center",
     "link": "",
     "category": "Medical Services",
@@ -208,7 +221,7 @@
     "lon": -122.272543
   },
   {
-    "id": 17,
+    "id": 18,
     "name": "Berkeley Food Network",
     "link": "",
     "category": "Food",
@@ -221,7 +234,7 @@
     "lon": -122.29422
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "Berkeley Food Pantry",
     "link": "",
     "category": "Food",
@@ -234,7 +247,7 @@
     "lon": -122.283081
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "Insight Housing",
     "link": "",
     "category": "Food",
@@ -247,7 +260,7 @@
     "lon": -122.258773
   },
   {
-    "id": 20,
+    "id": 21,
     "name": "Manna From Heaven Soup Kitchen ",
     "link": "",
     "category": "Food",
@@ -260,7 +273,7 @@
     "lon": -122.262009
   },
   {
-    "id": 21,
+    "id": 22,
     "name": "Night on the Streets Food Bank",
     "link": "",
     "category": "Food",
@@ -273,7 +286,7 @@
     "lon": -122.278503
   },
   {
-    "id": 22,
+    "id": 23,
     "name": "Food Not Bombs",
     "link": "",
     "category": "Food",
@@ -286,7 +299,7 @@
     "lon": -122.264122
   },
   {
-    "id": 23,
+    "id": 24,
     "name": "Dorothy Day House",
     "link": "",
     "category": "Food",
@@ -299,7 +312,7 @@
     "lon": -122.271838
   },
   {
-    "id": 24,
+    "id": 25,
     "name": "St. Vincent De Paul Community Center",
     "link": "",
     "category": "Laundry",
@@ -312,7 +325,7 @@
     "lon": -122.273668
   },
   {
-    "id": 25,
+    "id": 26,
     "name": "Bing Bong Washing",
     "link": "",
     "category": "Laundry",
@@ -325,7 +338,7 @@
     "lon": -122.259284
   },
   {
-    "id": 26,
+    "id": 27,
     "name": "West Campus Pool Free Shower Program",
     "link": "",
     "category": "Hygiene",
@@ -338,7 +351,7 @@
     "lon": -122.288421
   },
   {
-    "id": 27,
+    "id": 28,
     "name": "Women's Daytime Drop-in Center",
     "link": "",
     "category": "Hygiene",
@@ -351,11 +364,11 @@
     "lon": -122.284293
   },
   {
-    "id": 28,
+    "id": 29,
     "name": "North County Housing Resource Center",
     "link": "",
     "category": "Housing Help",
-    "description": "",
+    "description": "Helps unhoused adults get access to housing.",
     "address": "2809 Telegraph Ave. Suite 202, Berkeley, CA 94705",
     "contact": "(510) 495-0131",
     "hours": "In-person hours: Monday, Wednesday, Friday 9 AM - 12 PM\nCall-in hours: Monday to Friday 8:30 AM - 4:30 PM",
@@ -364,7 +377,7 @@
     "lon": -122.258997
   },
   {
-    "id": 29,
+    "id": 30,
     "name": "Family Front Door",
     "link": "",
     "category": "Housing Help",
@@ -377,7 +390,46 @@
     "lon": ""
   },
   {
-    "id": 30,
+    "id": 31,
+    "name": "Bay Area Community Services (Downtown Oakland)",
+    "link": "",
+    "category": "Housing Help",
+    "description": "",
+    "address": "629 Oakland Ave, Berkeley, CA 94611",
+    "contact": "(510) 658-9480",
+    "hours": "Monday to Thursday 9 AM - 12 PM",
+    "": "",
+    "lat": 37.82081,
+    "lon": -122.250964
+  },
+  {
+    "id": 32,
+    "name": "Building Opportunities for Self-Sufficiency",
+    "link": "",
+    "category": "Housing Help",
+    "description": "",
+    "address": "2280 San Pablo Ave, Oakland, CA 94612",
+    "contact": "(510) 649-1930 ext. 1015",
+    "hours": "Monday to Friday 10 AM - 2 PM",
+    "": "",
+    "lat": 37.813174,
+    "lon": -122.273996
+  },
+  {
+    "id": 33,
+    "name": "East Oakland Community Project",
+    "link": "",
+    "category": "Housing Help",
+    "description": "",
+    "address": "7515 International Blvd. Oakland, CA 94621",
+    "contact": "(510)-463-4061",
+    "hours": "Thursday and Friday 10 AM - 3 PM",
+    "": "",
+    "lat": 37.758075,
+    "lon": -122.185477
+  },
+  {
+    "id": 34,
     "name": "Eden I&R",
     "link": "",
     "category": "Housing Help",
@@ -390,7 +442,7 @@
     "lon": ""
   },
   {
-    "id": 31,
+    "id": 35,
     "name": "Homeless Action Center (Berkeley Office)",
     "link": "",
     "category": "Legal Help",
@@ -403,7 +455,7 @@
     "lon": -122.266417
   },
   {
-    "id": 32,
+    "id": 36,
     "name": "Homeless Action Center (Oakland Office)",
     "link": "",
     "category": "Legal Help",
@@ -416,7 +468,7 @@
     "lon": -122.275805
   },
   {
-    "id": 33,
+    "id": 37,
     "name": "Housing and Economic Rights Advocates (HERA)",
     "link": "",
     "category": "Legal Help",
@@ -429,7 +481,7 @@
     "lon": ""
   },
   {
-    "id": 34,
+    "id": 38,
     "name": "Youth Spirit Artworks",
     "link": "",
     "category": "Legal Help",
@@ -442,7 +494,7 @@
     "lon": -122.272377
   },
   {
-    "id": 35,
+    "id": 39,
     "name": "Peer Wellness Collective",
     "link": "",
     "category": "Miscellaneous",
@@ -455,7 +507,7 @@
     "lon": -122.27109
   },
   {
-    "id": 36,
+    "id": 40,
     "name": "Berkeley Sacred Rest Drop-In Center",
     "link": "",
     "category": "Miscellaneous",
@@ -468,7 +520,7 @@
     "lon": -122.259632
   },
   {
-    "id": 37,
+    "id": 41,
     "name": "California Prevention and Education Project (Cal-PEP)",
     "link": "https://sites.google.com/calpep.org/calpep/contact-us?authuser=0&pli=1",
     "category": "Miscellaneous",
@@ -481,7 +533,7 @@
     "lon": -122.282628
   },
   {
-    "id": 38,
+    "id": 42,
     "name": "Berkeley DMV",
     "link": "",
     "category": "DMV Locations",
@@ -494,7 +546,7 @@
     "lon": -122.286688
   },
   {
-    "id": 39,
+    "id": 43,
     "name": "Oakland DMV",
     "link": "",
     "category": "DMV Locations",
@@ -507,7 +559,7 @@
     "lon": -122.259483
   },
   {
-    "id": 40,
+    "id": 44,
     "name": "Social Security Administration",
     "link": "",
     "category": "Government",
@@ -520,7 +572,7 @@
     "lon": -122.269484
   },
   {
-    "id": 41,
+    "id": 45,
     "name": "US Postal Service",
     "link": "",
     "category": "Government",
