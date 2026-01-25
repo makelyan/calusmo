@@ -2,10 +2,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../styles/joinus.css"
 import { Helmet } from 'react-helmet-async';
-import { Link } from "react-router-dom";
-import OutreachImage1 from '../images/outreach-1.jpg';
-// import OutreachImage2 from '../images/outreach-2.jpg';
-import OutreachImage3 from '../images/outreach-3.jpg';
+// import { Link } from "react-router-dom";
+import OutreachImage1 from '../images/outreach/outreach-1.jpg';
+import Usmogiving1 from '../images/usmogiving/usmogiving-1.jpg';
+import Usmogiving2 from '../images/usmogiving/usmogiving-2.jpg';
+import Blankets from '../images/outreach/blankets.jpg';
+import OutreachImage3 from '../images/outreach/outreach-3.jpg';
 
 
 export default function JoinUs() {
@@ -28,23 +30,43 @@ export default function JoinUs() {
                 Application
             </h2>
                 <p className="joinus-text">
-                <span>
+                    <ul>
+                        <li>
+                            <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSdD-J5WDyQ1shzaHaejDgGDeKZtFx_CM3dZ33iuaES7W3czLg/viewform" target="_blank" rel="noopener noreferrer">
+                                Spring 2026 Application (due Friday, February 6 @ 11:59PM)
+                                <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i>
+                            </a></b>
+                        </li>
+                        <li>
+                            <a href="https://forms.gle/Ekv4CVYk5yR3pCQ27" target="_blank" rel="noopener noreferrer">
+                                Spring 2026 Interest Form
+                                <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i>
+                            </a>
+                        </li>
+                    </ul>
+                {/* <span>
                     We are no longer recruiting new members for Fall 2025. However, feel free to <Link to="/contact-us">contact us</Link> with any questions!
-                </span>
+                </span> */}
                 </p>
         
             <h2 className="joinus-header">
                 Infosessions 
             </h2>
                 <p className="joinus-text">
-                {/* <ul>
-                    <li> */}
-                        <a href="/downloads/infosession_fa25_usmo.pdf">
-                            Infosession Slides from Fall 2025
-                            <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i>
-                        </a>
-                    {/* </li>
-                </ul> */}
+                    <ul>
+                        <li>
+                            Thursday, January 29th 8-9 pm @ TBA
+                        </li>
+                        <li>
+                            Wednesday, February 4th 8-9 pm @ TBA
+                        </li>
+                        <li>
+                            <a href="/downloads/infosession_fa25_usmo.pdf">
+                                Infosession Slides from Fall 2025
+                                <i className="fas fa-download fa-sm" style={{marginLeft: 4}}></i>
+                            </a>
+                        </li>
+                    </ul>
                 </p>
         <hr className="joinus-hr" />
             <h2 className="joinus-header">
@@ -94,6 +116,10 @@ export default function JoinUs() {
                 <br></br>
                 <img src={OutreachImage3} alt="Outreach" className="joinus-text" style={{ display: "block", margin: "12 auto" }} />
                 <img src={OutreachImage1} alt="Outreach" className="joinus-text" style={{ display: "block", margin: "12 auto" }} />
+                <img src={Usmogiving1} alt="USMO-giving" className="joinus-text" style={{ display: "block", margin: "12 auto" }} />
+                <img src={Usmogiving2} alt="USMO-giving" className="joinus-text" style={{ display: "block", margin: "12 auto" }} />
+                <img src={Blankets} alt="Blanket Sewing" className="joinus-text" style={{ display: "block", margin: "12 auto" }} />
+
                 {/* <img src={OutreachImage2} alt="Outreach" className="joinus-text" style={{ display: "block", margin: "12 auto" }} /> */}
             </p>
 

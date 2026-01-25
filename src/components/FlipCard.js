@@ -1,4 +1,4 @@
-const images = require.context('../images/headshots', false, /\.(png|jpe?g|svg)$/);
+const images = require.context('../images/headshots', false, /\.(png|jpe?g|svg|jpg)$/);
 
 export default function FlipCard({ name, position, bio, instagramLink, linkedinLink }) {
   const headshot = images.keys().find((image) => image.includes(name));

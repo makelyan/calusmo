@@ -10,12 +10,12 @@
 /* ------------------------------
    1) GRID WRAPPER
    ------------------------------ */
-.flip-cards-grid {
+/* .flip-cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.875rem;
+  grid-template-columns: repeat(auto-fit, 250px);
   justify-content: center;
-  /* justify-items: center; */
+  justify-items: center;
+  gap: 1.875rem;
   align-items: center;
   justify-self: center;
   width: 75%;
@@ -25,6 +25,17 @@
   margin-top: 3.125rem;
   margin-bottom: 3.125rem;
   box-sizing: border-box;
+} */
+
+.flip-cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centers each row */
+    gap: 1.875rem;
+  
+    width: 75%;
+    margin: 3.125rem auto;
+    padding: 0 0.938rem;
 }
 
 /* Committee Section Header */
@@ -46,11 +57,16 @@
 /* ------------------------------
    2) CARD WRAPPER + FLIP SETUP
    ------------------------------ */
-.flip-card-container {
+/* .flip-card-container {
   perspective: calc(999vw / 2); 
   aspect-ratio: 3 / 4;
   overflow: hidden;
   background-color: transparent;
+} */
+
+.flip-card-container {
+    width: 275px;
+    aspect-ratio: 3.5 / 4;
 }
 
 .card {
@@ -159,9 +175,9 @@
 .back p {
   font-family: "Inter", sans-serif;
   font-weight: 200;
-  /* font-size: calc(4.75vw / 3); */
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: calc(4.75vw / 4);
+  /* font-size: 1rem; */
+  line-height: 1.2rem;
   margin: 0;
   /* line-height: calc(6vw / 2); */
 }
@@ -179,10 +195,11 @@
 }
 
 @media (max-width: 768px) {
-  .flip-cards-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+    .flip-cards-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
   .flip-card-container {  
     border-radius: 1.25rem;
@@ -203,6 +220,10 @@
     overflow-y: auto;
   }
 
+  .back p {
+    font-size: clamp(0.9rem, 1.4vw, 1.15rem);
+  }
+
   .icons-box { 
     display: none;
   }
@@ -219,13 +240,13 @@
   }
 
   .mobile-front-text-container h2 {
-    font-size: 0.65rem;
+    font-size: 1.2rem;
     font-weight: 700;
     margin: 0;
   }
 
   .mobile-front-text-container h3 {
-    font-size: 0.65rem;
+    font-size: 1.2rem;
     font-weight: 450;
     margin: 0;
   }
@@ -233,20 +254,20 @@
 
 @media (max-width: 610px) {
   .mobile-front-text-container h2 {
-    font-size: 0.55rem;
+    font-size: 1.2rem;
   }
 
   .mobile-front-text-container h3 {
-    font-size: 0.55rem;
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 530px) {
   .mobile-front-text-container h2 {
-    font-size: 0.35rem;
+    font-size: 1.2rem;
   }
 
   .mobile-front-text-container h3 {
-    font-size: 0.35rem;
+    font-size: 1.2rem;
   }
 }

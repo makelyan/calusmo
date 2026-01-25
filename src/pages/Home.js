@@ -43,22 +43,22 @@ export default function() {
                     <section className = "join-us-container text-container-top">
                         <h2>Join Us</h2>
                         <div className="card">
-                            <p>
+                            {/* <p>
                                 All undergraduate students regardless of year and prior experience are welcome to join USMO! Learn more about what we do <Link to="/contact">here</Link>. Alternatively, feel free to contact us <Link to="/contact">here</Link>.
-                            </p>
+                            </p> */}
 
-                            {/* <strong id="joinus-strong">We are now recruiting new members for Fall 2025!</strong>
+                            <strong id="joinus-strong">We are now recruiting new members for Spring 2026!</strong>
                             <p style={{ textAlign: "center" }}>All undergraduate students regardless of year and prior experience are welcome to join USMO.</p>
 
                             <div className="joinus-home">
                                 <div>
-                                    <h3 style={{ textAlign: "center" }}>Info Sessions</h3>
+                                    <h3 style={{ textAlign: "center" }}>Infosessions</h3>
                                     <ul>
                                     <li>
-                                        Thursday September 4, 2025 from 8-9 PM @ Wheeler 24
+                                        Thursday, January 29th 8-9 pm @ TBA
                                     </li>
                                     <li>
-                                        Wednesday September 10, 2025 from 8-9 PM @ Wheeler 24
+                                        Wednesday, February 4th 8-9 pm @ TBA
                                     </li>
                                     </ul>
                                 </div>                            
@@ -78,20 +78,20 @@ export default function() {
                                 Click <Link to="/join-us">here</Link> to learn more about outreach, committees, and more!
                             </strong>
                             <a 
-                                href="https://tinyurl.com/usmofall25recruitment" 
+                                href="https://forms.gle/Ekv4CVYk5yR3pCQ27" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 style={{ display: "inline-block", marginTop: "10px", border: "4px solid #88acd4", padding: "10px 16px",  color: "black", borderRadius: "6px", textDecoration: "none", fontWeight: "bold" }} >
                                 Interest Form
                             </a>
                              <a 
-                                href="https://forms.gle/9KAddPc3bghkJeyR9" 
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSdD-J5WDyQ1shzaHaejDgGDeKZtFx_CM3dZ33iuaES7W3czLg/viewform" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 style={{ display: "inline-block", marginTop: "10px", padding: "10px 16px", backgroundColor: "#88acd4", color: "black", borderRadius: "6px", textDecoration: "none", fontWeight: "bold" }} >
                                 APPLY
                             </a>
-                            */}
+                           
 
                         </div>
                     </section>
@@ -103,8 +103,7 @@ export default function() {
                             </strong> 
                             <p>    
                             Our first outreach involved only three ingredients: peanut butter, jelly, and whole wheat bread. It 
-                            came as a response from our small group of founders— Jason Abbas, Hamilton Nguyen, John Son, Aditya 
-                            Lashmanan, Ranga Bharadwaj, Rishi Raghavan, and Rahul Desmane— to the severe lack of community resources 
+                            came as a response from our small group of founders— Jason Abbas, Ranga Bharadwaj, Rishi Raghavan, and Rahul Desmane— to the severe lack of community resources 
                             we witnessed firsthand in Berkeley's unhoused encampments. Noticing the real change we could 
                             effect with just a few sandwiches, we decided it was worthwhile to scale up our operation, creating USMO as 
                             we know it today. Within one short year as a student organization, USMO has grown to a club with over <strong>80+ members</strong> that visit 
