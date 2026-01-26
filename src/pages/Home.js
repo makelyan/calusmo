@@ -55,7 +55,7 @@ export default function() {
                                     <h3 style={{ textAlign: "center" }}>Infosessions</h3>
                                     <ul>
                                     <li>
-                                        Thursday, January 29th 8-9 pm @ TBA
+                                        Thursday, January 29th 8-9 pm @ Evans 6
                                     </li>
                                     <li>
                                         Wednesday, February 4th 8-9 pm @ TBA
