@@ -58,7 +58,7 @@ export default function JoinUs() {
                             Thursday, January 29th 8-9 pm @ Evans 6
                         </li>
                         <li>
-                            Wednesday, February 4th 8-9 pm @ TBA
+                            Thursday, February 5th 8-9 pm @ Dwinelle 215
                         </li>
                         <li>
                             <a href="/downloads/infosession_fa25_usmo.pdf">
