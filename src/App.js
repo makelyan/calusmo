@@ -5,6 +5,8 @@ import OurTeam from "./pages/OurTeam";
 import NoPage from "./pages/NoPage";
 import Resources from "./pages/Resources";
 import JoinUs from "./pages/JoinUs";
+import OurAlumni from "./pages/OurAlumni";
+import Timeline from "./pages/Timeline";
 
 function App() {
   return (
@@ -14,8 +16,11 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/our-team" element={<OurTeam />} />
+        <Route path="/our-alumni" element={<OurAlumni />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/join-us" element={<JoinUs />} />
+        <Route path="/timeline" element={<Timeline />} />
+
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

@@ -150,5 +150,80 @@
         "bio": "Hey everyone! My name is Kelly and I am a sophomore studying Neuroscience and Public Health. My favorite aspect of USMO and healthcare as a whole is the ability to connect with the unhoused and patients. As publicity chair, my projects focus on representing current resources and news within the community and USMO. Outside of school, I love skiing, traveling, exploring new pastry and tea shops, and photography!",
         "instagramLink": "https://instagram.com/",
         "linkedinLink": "https://linkedin.com/"
+    },
+
+
+
+    {
+        "name": "Anju Natarajan",
+        "position": "President",
+        "committee": "Alumni",
+        "bio": "Hello hello! My name is Anju and I'm a 4th year majoring in MCB and minoring in Data Science. This club has been a passion of mine since freshman year, and I'm so so proud of how far we've come and I love the friends I've made along the way (in the club and also the encampments)! Outside of USMO you'll see me in my lab or making art :)",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Jacob Park",
+        "position": "President",
+        "committee": "Alumni",
+        "bio": "Hello, my name is Jacob Park and I am a Senior at UC Berkeley majoring in Integrative Biology. USMO is a club I joined on a whim but it has significantly shaped my college experience over the years and I am proud to be able to serve with such a dedicated group of peers. Outside of USMO, my hobbies include art, gaming, and music.",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Anoushka Adusumalli",
+        "position": "Internal VP",
+        "committee": "Alumni",
+        "bio": "",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Isabella Lake",
+        "position": "Advocacy VP",
+        "committee": "Alumni",
+        "bio": "Hey y'all! I'm a fourth-year Rhetoric/Legal Studies major who helps teach our DeCal, Health and the Unhoused. I love backpacking, acquiring new solo hobbies, and all the friends I've made through USMO! I hope that all our new members come to feel the same way :)",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Alinna Villaroman",
+        "position": "Finance VP",
+        "committee": "Alumni",
+        "bio": "Hey guys, Alinna here, your finance head!! If I’m not handling your precious cargo, I’m off spending undisclosed amounts of my own money on little figures and trinkets that give me emotional support. I’m a senior majoring in MCB, and fun fact, I’ll watch or read anything you recommend me (and I mean anything) so let me know what I can use as an excuse to waste my time on next!",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Grace Isaac",
+        "position": "Finance Chair",
+        "committee": "Alumni",
+        "bio": "Hello! I am a fourth year MCB major and love cats, baking, and going on walks. As a finance chair, I focus on grants and development.",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Sanchitha Kannabran",
+        "position": "External VP",
+        "committee": "Alumni",
+        "bio": "Hi, I'm Sanchitha Kannabran and I am a senior studying Molecular and Cellular Biology with an emphasis on Immunology and Molecular Medicine. For the past 3 semesters I have enjoyed helping the community by arranging partnerships and organizing events with USMO and I look forward to doing more impactful work this semester as part of the external committee!",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Sanya Singh",
+        "position": "External Chair",
+        "committee": "Alumni",
+        "bio": "Hi, I am a 4th year student at Cal studying MCB.",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
+    },
+    {
+        "name": "Kylie Huang",
+        "position": "Advocacy Chair",
+        "committee": "Alumni",
+        "bio": "Hello! My name is Kylie and I'm a third-year majoring in MCB and Business. As an Advocacy Chair, I work with our committee members to organize housing workshops, engage in policy advocacy, and connect our team to resources and partnerships. I'll also be helping facilitate our Health and the Unhoused DeCal! Outside of USMO, I love tap dancing, hiking, and cooking fun meals :)",
+        "instagramLink": "https://instagram.com/",
+        "linkedinLink": "https://linkedin.com/"
     }
 ]

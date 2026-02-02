@@ -219,6 +219,96 @@ code {
   min-height: 30vh;
 }
 
+/* ===== Dropdown Toggle Styling ===== */
+.nav-item.dropdown .dropdown-toggle {
+    position: relative !important;
+    padding: 0 !important;
+    color: black !important;
+    font-family: var(--ff-sans) !important;
+    font-weight: 250 !important;
+    font-size: 1.125rem !important;
+    background: none !important;
+    border: none !important;
+    display: inline-block !important;
+    cursor: pointer; /* makes hover UX clear */
+}
+
+/* Arrow next to the toggle */
+.nav-item.dropdown .dropdown-toggle .dropdown-arrow {
+    display: inline-block;
+    margin-left: 0.25rem;
+    font-size: 0.7em;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+    transform: rotate(90deg); /* points left initially */
+    pointer-events: none; /* arrow doesn’t block hover */
+}
+
+/* Remove default Bootstrap arrow */
+.nav-item.dropdown .dropdown-toggle::after {
+    display: none !important;
+}
+
+/* Arrow rotates on hover */
+.nav-item.dropdown:hover .dropdown-toggle .dropdown-arrow {
+    transform: rotate(180deg); /* points down on hover */
+}
+
+/* Underline animation for hover toggle */
+.nav-item.dropdown .dropdown-toggle::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0.063rem;
+    background-color: black;
+    transition: width 0.25s ease-out;
+}
+
+.nav-item.dropdown .dropdown-toggle:hover::before {
+    width: 100%;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    display: none; 
+    position: absolute;
+    background-color: whitesmoke;
+    border: none;
+    padding: 0.5rem 0; 
+    margin-top: 0; 
+    box-shadow: none;
+    left: -1rem; 
+    min-width: 10rem; /* optional fixed width */
+    z-index: 1000;
+}
+
+.nav-item.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1.5rem !important; 
+    margin: 0 !important;  
+    background: none !important;
+    font: inherit !important;
+    line-height: inherit !important;
+    color: inherit !important;
+    white-space: nowrap; 
+}
+
+@media (max-width: 768px) {
+    .nav-item.dropdown .dropdown-menu {
+        position: static; 
+        min-width: 100%;
+        margin-top: 0;
+    }
+
+    .dropdown-item {
+        padding: 0.5rem 1rem !important;
+        margin: 0 !important;
+    }
+}
 
 @media (max-width: 768px) {
   .text-container-left, .text-container-right {

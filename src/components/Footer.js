@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-          © Undergraduate Street Medicine Outreach, 2024. All rights reserved.
+          © Undergraduate Street Medicine Outreach, 2026. All rights reserved.
         </div>
     </footer>
   );

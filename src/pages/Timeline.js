@@ -5,7 +5,7 @@ import "../styles/ourteam.css";
 import ourTeamData from '../data/ourteam.json';
 import { Helmet } from 'react-helmet-async';
 
-export default function OurTeam() {
+export default function Timeline() {
   const committees = ["Internal", "External", "Advocacy", "Finance", "Publicity", "Alumni"];
   return (
     <>
@@ -26,11 +26,13 @@ export default function OurTeam() {
           {committee !== "Internal" && committee !== "Alumni" && (
             <div className="ourteam-header">{committee} Committee</div>
           )}
+          {committee === "Alumni" && (
+            <div className="ourteam-header">{committee}</div>
+          )}
       
           <div className="flip-cards-grid">
             {ourTeamData
               .filter(member => member.committee === committee)
-              .filter(member => member.committee !== "Alumni")
               .map((member, memberIndex) => (
                 <div
                   className="team-member-container"

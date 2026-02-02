@@ -15,7 +15,6 @@ export default function() {
             <Helmet>
                 <title>USMO</title>
                 <link rel="canonical" href="https://calusmo.org/home" />
-                <meta name="google-site-verification" content="yQ3_GHb1c5QwrnLG-baSl-cXJ_P3J-ES81OYPYUDN9w" />
             </Helmet>
             <Header />
             <div className="banner-container">
