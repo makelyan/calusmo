@@ -43,10 +43,10 @@ export default function() {
                     <section className = "join-us-container text-container-top">
                         <h2>Join Us</h2>
                         <div className="card">
-                            {/* <p>
+                            <p>
                                 All undergraduate students regardless of year and prior experience are welcome to join USMO! Learn more about what we do <Link to="/contact">here</Link>. Alternatively, feel free to contact us <Link to="/contact">here</Link>.
-                            </p> */}
-
+                            </p>
+{/* 
                             <strong id="joinus-strong">We are now recruiting new members for Spring 2026!</strong>
                             <p style={{ textAlign: "center" }}>All undergraduate students regardless of year and prior experience are welcome to join USMO.</p>
 
@@ -90,7 +90,7 @@ export default function() {
                                 rel="noopener noreferrer"
                                 style={{ display: "inline-block", marginTop: "10px", padding: "10px 16px", backgroundColor: "#88acd4", color: "black", borderRadius: "6px", textDecoration: "none", fontWeight: "bold" }} >
                                 APPLY
-                            </a>
+                            </a> */}
                            
 
                         </div>

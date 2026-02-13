@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../styles/joinus.css"
 import { Helmet } from 'react-helmet-async';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import OutreachImage1 from '../images/outreach/outreach-1.jpg';
 import Usmogiving1 from '../images/usmogiving/usmogiving-1.jpg';
 import Usmogiving2 from '../images/usmogiving/usmogiving-2.jpg';
@@ -30,7 +30,7 @@ export default function JoinUs() {
                 Application
             </h2>
                 <p className="joinus-text">
-                    <ul>
+                    {/* <ul>
                         <li>
                             <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSdD-J5WDyQ1shzaHaejDgGDeKZtFx_CM3dZ33iuaES7W3czLg/viewform" target="_blank" rel="noopener noreferrer">
                                 Spring 2026 Application (due Friday, February 6 @ 11:59PM)
@@ -43,10 +43,10 @@ export default function JoinUs() {
                                 <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i>
                             </a>
                         </li>
-                    </ul>
-                {/* <span>
+                    </ul> */}
+                <span>
                     We are no longer recruiting new members for Fall 2025. However, feel free to <Link to="/contact-us">contact us</Link> with any questions!
-                </span> */}
+                </span>
                 </p>
         
             <h2 className="joinus-header">
@@ -54,12 +54,12 @@ export default function JoinUs() {
             </h2>
                 <p className="joinus-text">
                     <ul>
-                        <li>
+                        {/* <li>
                             Thursday, January 29th 8-9 pm @ Evans 6
                         </li>
                         <li>
                             Thursday, February 5th 8-9 pm @ Dwinelle 215
-                        </li>
+                        </li> */}
                         <li>
                             <a href="/downloads/infosession_fa25_usmo.pdf">
                                 Infosession Slides from Fall 2025
