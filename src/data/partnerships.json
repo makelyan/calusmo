@@ -42,5 +42,21 @@
     {
       "name": "Where Do We Go?",
       "link": "https://www.wdwg.org"
+    },
+    {
+        "name": "Berkeley Outreach Coalition",
+        "link": "http://www.berkeleyoc.com/news-blog"
+    },
+    {
+        "name": "Alameda County Healthcare For The Homeless",
+        "link": "https://www.achch.org"
+    },
+    {
+        "name": "MEDLIFE",
+        "link": "https://chapters.medlifemovement.org/chapter/University-of-California-Berkeley"
+    },
+    {
+        "name": "ReCARES",
+        "link": "https://www.recares.org"
     }
 ]

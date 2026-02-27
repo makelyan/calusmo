@@ -9,7 +9,11 @@ const logos = {
   "National Coalition Against Prescription Drug Abuse": "/images/partnerships/National Coalition Against Prescription Drug Abuse.png",
   "Students vs. Pandemics": "/images/partnerships/Students vs. Pandemics.png",
   "Where Do We Go?": "/images/partnerships/Where Do We Go.png",
-  "ASUC Community Projects": "/images/partnerships/ASUC Community Projects.png"
+  "ASUC Community Projects": "/images/partnerships/ASUC Community Projects.png",
+  "Berkeley Outreach Coalition": "/images/partnerships/Berkeley Outreach Coalition.jpg",
+  "Alameda County Healthcare For The Homeless": "/images/partnerships/Alameda County Healthcare For The Homeless.png",
+  "MEDLIFE": "/images/partnerships/MEDLIFE.jpeg",
+  "ReCARES": "/images/partnerships/ReCARES.png"
 };
 
 export default function OurPartnerships({ name, link }) {
