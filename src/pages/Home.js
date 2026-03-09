@@ -44,7 +44,7 @@ export default function() {
                         <h2>Join Us</h2>
                         <div className="card">
                             <p>
-                                All undergraduate students regardless of year and prior experience are welcome to join USMO! Learn more about what we do <Link to="/contact">here</Link>. Alternatively, feel free to contact us <Link to="/contact">here</Link>.
+                                All undergraduate students regardless of year and prior experience are welcome to join USMO! Learn more about what we do <Link to="/join-us">here</Link>. Alternatively, feel free to contact us <Link to="/contact">here</Link>.
                             </p>
 {/* 
                             <strong id="joinus-strong">We are now recruiting new members for Spring 2026!</strong>

@@ -9,7 +9,7 @@ export default function FlipCard({ name, position, bio, instagramLink, linkedinL
       <div className="flip-card-container">
         <div className="card">
           <div className="front">
-            <img src={headshotSrc} alt={`Headshot of ${name}`} />
+            <img src={headshotSrc} loading="lazy" alt={`Headshot of ${name}`} />
             <div className="front-text-container">
               <h2 className="member-name">{name}</h2>
               <h3 className="member-position">{position}</h3>

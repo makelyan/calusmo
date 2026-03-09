@@ -8,7 +8,32 @@ import "../styles/index.css"
 import "../styles/contact.css"
 import { Helmet } from 'react-helmet-async';
 
+import { useRef } from 'react';
+import emailjs from "@emailjs/browser";
+
 export default function() {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+      
+        emailjs
+            .sendForm(
+            "service_lhrrsrm",
+            "template_rzw8nct",
+            form.current,
+            "zELM_rDCCca9y6bWe"
+        )
+        .then(
+            () => {
+              alert("Message sent successfully!");
+              form.current.reset();
+            },
+            (error) => {
+              console.log(error);
+              alert("Failed to send message.");
+            }
+        );
+      };
     return (
     <>
     <Helmet>
@@ -23,38 +48,39 @@ export default function() {
         </p>
     </div>
     <div style={{ padding: '20px' }}>    
-      <div class="contact-block">
-        <h2>Contact Information</h2>
-        <p>
-          <b>Phone:</b> (510) 543-1632
-          <br></br> 
-          <b>Email:</b> ucbusmo@gmail.com
-        </p>
-      </div>
+        <div className="contact-block">
+            <h2>Contact Information</h2>
+            <p>
+                <b>Phone:</b> (510) 543-1632
+                <br></br> 
+                <b>Email:</b> ucbusmo@gmail.com
+            </p>
+        </div>
     </div>
     <section className = 'contact-form-container'>
-      <Form className= "contact-form">
-          <h2 className = 'mini-header'> Submit Query </h2>     
-          <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email Address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-          <Form.Text className="text-muted">
-          </Form.Text>
+        <Form ref={form} onSubmit={sendEmail} className="contact-form"> 
+            <h2 className = 'mini-header'> Submit Query </h2>     
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Email Address</Form.Label>
+            <Form.Control name="email" type="email" placeholder="Enter email" />
+            <Form.Text className="text-muted">
+            </Form.Text>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlid="formBasicFirstName">
-          <Form.Label>First name</Form.Label>
-          <Form.Control type="firstName" placeholder="First Name"/>
-        </Form.Group>
-        <Form.Group className="mb-3" controlid="formBasicLastName">
-          <Form.Label>Last name</Form.Label>
-          <Form.Control type="lastName" placeholder="Last Name"/>
+        <Form.Group className="mb-3" controlId="formName">
+            <Form.Label>Name</Form.Label>
+            <Form.Control
+                name="name"
+                type="text"
+                placeholder="Your Name"
+                required
+            />
         </Form.Group>
         <Form.Group className="mb-3" controlid="formQueryBox">
           <Form.Text className="text-muted">
             Enter your message here
           </Form.Text>       
-          <Form.Control as="textarea" rows={3} />
+          <Form.Control name="message" as="textarea" rows={3} />
         </Form.Group>
         <Button variant="primary" type="submit">
           Submit

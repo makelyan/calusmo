@@ -7,6 +7,8 @@ import Resources from "./pages/Resources";
 import JoinUs from "./pages/JoinUs";
 import OurAlumni from "./pages/OurAlumni";
 import Timeline from "./pages/Timeline";
+import PhotoGallery from "./pages/PhotoGallery";
+import ItemRequest from "./pages/ItemRequest";
 
 function App() {
   return (
@@ -15,11 +17,13 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/photo-gallery" element={<PhotoGallery />} />
         <Route path="/our-team" element={<OurTeam />} />
         <Route path="/our-alumni" element={<OurAlumni />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/join-us" element={<JoinUs />} />
         <Route path="/timeline" element={<Timeline />} />
+        <Route path="/item-request" element={<ItemRequest />} />
 
         <Route path="*" element={<NoPage />} />
       </Routes>

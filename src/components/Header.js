@@ -47,16 +47,31 @@ function Header() {
             <Link to="/home" className={`nav-item ${currentPage === '/home' ? 'active' : ''}`}>Home</Link>
 
             <HoverDropdown
-              title={<>About Us <span className="dropdown-arrow">▶</span></>}
-              id="about-dropdown"
+                title={<>About Us <span className="dropdown-arrow">▶</span></>}
+                id="about-dropdown"
             >
-              <NavDropdown.Item as={Link} to="/our-team" className="dropdown-item nav-item">Our Team</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/our-alumni" className="dropdown-item nav-item">Our Alumni</NavDropdown.Item>
-              <NavDropdown.Item href="https://decal.studentorg.berkeley.edu/courses/7193" target="_blank" rel="noopener noreferrer" className="dropdown-item nav-item">DeCal</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/photo-gallery" className="dropdown-item nav-item">Photo Gallery</NavDropdown.Item>
+                <NavDropdown.Item href="https://decal.studentorg.berkeley.edu/courses/7193" target="_blank" rel="noopener noreferrer" className="dropdown-item nav-item">DeCal</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/contact" className="dropdown-item nav-item">Contact Us</NavDropdown.Item>
+
             </HoverDropdown>
 
-            <Link to="/join-us" className={`nav-item ${currentPage === '/join-us' ? 'active' : ''}`}>Join Us</Link>
-            <Link to="/resources" className={`nav-item ${currentPage === '/resources' ? 'active' : ''}`}>Resources</Link>
+            <HoverDropdown
+                title={<>People <span className="dropdown-arrow">▶</span></>}
+                id="about-dropdown"
+            >
+                <NavDropdown.Item as={Link} to="/our-team" className="dropdown-item nav-item">Our Team</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/our-alumni" className="dropdown-item nav-item">Our Alumni</NavDropdown.Item>
+            </HoverDropdown>
+
+            <HoverDropdown
+                title={<>Resources<span className="dropdown-arrow">▶</span></>}
+                id="about-dropdown"
+            >
+                <NavDropdown.Item as={Link} to="/resources" className="dropdown-item nav-item">Housing Resources</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/item-request" className="dropdown-item nav-item">Item Request Form</NavDropdown.Item>
+
+            </HoverDropdown>
 
             <HoverDropdown
               title={<>Donate <span className="dropdown-arrow">▶</span></>}
