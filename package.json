@@ -17,6 +17,7 @@
     "react-helmet-async": "^2.0.5",
     "react-router-dom": "^6.30.0",
     "react-scripts": "^5.0.1",
+    "underscore": "^1.13.8",
     "usmo": "file:",
     "web-vitals": "^2.1.4"
   },
