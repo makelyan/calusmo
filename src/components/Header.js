@@ -46,6 +46,9 @@ function Header() {
           <Nav className="link-list">
             <Link to="/home" className={`nav-item ${currentPage === '/home' ? 'active' : ''}`}>Home</Link>
 
+            <Link to="/join-us" className={`nav-item ${currentPage === '/home' ? 'active' : ''}`}>Join Us</Link>
+
+
             <HoverDropdown
                 title={<>About Us <span className="dropdown-arrow">▶</span></>}
                 id="about-dropdown"
