@@ -45,7 +45,7 @@ export default function JoinUs() {
                         </li>
                     </ul> */}
                 <span>
-                    We are no longer recruiting new members for Fall 2025. However, feel free to <Link to="/contact-us">contact us</Link> with any questions!
+                    We are no longer recruiting new members for Spring 2026. However, feel free to <Link to="/contact-us">contact us</Link> with any questions!
                 </span>
                 </p>
         
