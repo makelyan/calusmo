@@ -1,0 +1,63 @@
+[
+    {
+        "location": "8th & Harrison",
+        "date": "January 2026",
+        "reason": "Leptospirosis outbreak",
+        "note": "Risks greatest for those without indoor shelter, plumbing, secure garbage, safe food storage, or rat prevention.",
+        "image": "/src/images/encampments/8th_Harrison.jpg"
+    },
+    {
+        "location": "2nd & Page",
+        "date": "January 2026",
+        "reason": "Trash piles & fire safety",
+        "note": "Exact date not specified; USMO reported the sweep."
+    },
+    {
+        "location": "Carleton Street",
+        "date": "October 2025",
+        "reason": "Bayer Pharmaceutical company took over land",
+        "note": "Residents warned for more than a week; 1 arrest of those refusing to leave; some received 4-week hotel compensation."
+    },
+    {
+        "location": "Ohlone Park",
+        "date": "September 2025",
+        "reason": "Hazardous site due to pesticide/fertilizer",
+        "note": "Complaints from neighbors on crime/theft and safety risk."
+    },
+    {
+        "location": "8th & Harrison",
+        "date": "June 2025",
+        "reason": "Sweep without notice",
+        "note": "Court hearing scheduled 6/10/25; many residents lost belongings, stability, and trust. Follow-up ruling allowed residents to stay for 2 months."
+    },
+    {
+        "location": "8th & Harrison",
+        "date": "April 2025",
+        "reason": "Cleanliness",
+        "note": "USMO helped participate in community cleanups to prevent the sweep (presentation 4/11/25)."
+    },
+    {
+        "location": "42nd Street",
+        "date": "January 2025",
+        "reason": "Safety hazard for residents",
+        "note": "This location is an underpass; encampment blocked the road. Reported thefts & shootings over the years."
+    },
+    {
+        "location": "45th Street",
+        "date": "January 2025",
+        "reason": "Safety hazard for residents",
+        "note": "Reported thefts & shootings over the years."
+    },
+    {
+        "location": "29th Street",
+        "date": "September 2024",
+        "reason": "Crime & Residential Safety Concerns",
+        "note": "About 20 unhoused members lived here; many reports of stolen vehicles; parents concerned about children walking to/from school."
+    },
+    {
+        "location": "2nd & Page",
+        "date": "September 2024",
+        "reason": "Health, Safety, & Fire Risks",
+        "note": "Alternate housing offered at a nearby motel & cash-for-RV programs via the Encampment Resolution Funding (ERF) Program."
+    }
+]

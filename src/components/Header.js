@@ -53,7 +53,7 @@ function Header() {
                 title={<>About Us <span className="dropdown-arrow">▶</span></>}
                 id="about-dropdown"
             >
-                <NavDropdown.Item as={Link} to="/photo-gallery" className="dropdown-item nav-item">Photo Gallery</NavDropdown.Item>
+                {/* <NavDropdown.Item as={Link} to="/photo-gallery" className="dropdown-item nav-item">Photo Gallery</NavDropdown.Item>                 */}
                 <NavDropdown.Item href="https://decal.studentorg.berkeley.edu/courses/7193" target="_blank" rel="noopener noreferrer" className="dropdown-item nav-item">DeCal</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/contact" className="dropdown-item nav-item">Contact Us</NavDropdown.Item>
 
@@ -73,6 +73,8 @@ function Header() {
             >
                 <NavDropdown.Item as={Link} to="/resources" className="dropdown-item nav-item">Housing Resources</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/item-request" className="dropdown-item nav-item">Item Request Form</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/sweeps-timeline" className="dropdown-item nav-item">Sweeps Timeline</NavDropdown.Item>
+
 
             </HoverDropdown>
 

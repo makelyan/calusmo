@@ -30,23 +30,23 @@ export default function JoinUs() {
                 Application
             </h2>
                 <p className="joinus-text">
-                    {/* <ul>
+                    <ul>
                         <li>
-                            <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSdD-J5WDyQ1shzaHaejDgGDeKZtFx_CM3dZ33iuaES7W3czLg/viewform" target="_blank" rel="noopener noreferrer">
-                                Spring 2026 Application (due Friday, February 6 @ 11:59PM)
+                            <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSeF45gMzyxHodd90ngPdPU9afiGVqqbLrf08T5idDVWZM3_5Q/viewform" target="_blank" rel="noopener noreferrer">
+                                Fall 2026 Application (due Friday, September 11th @ 11:59PM)
                                 <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i>
                             </a></b>
                         </li>
                         <li>
-                            <a href="https://forms.gle/Ekv4CVYk5yR3pCQ27" target="_blank" rel="noopener noreferrer">
-                                Spring 2026 Interest Form
+                            <a href="https://forms.gle/aDwsoveTzoatn5XZ8" target="_blank" rel="noopener noreferrer">
+                                Fall 2026 Interest Form
                                 <i className="fas fa-arrow-up-right-from-square fa-sm" style={{marginLeft: 4}}></i>
                             </a>
                         </li>
-                    </ul> */}
-                <span>
+                    </ul>
+                {/* <span>
                     We are no longer recruiting new members for Spring 2026. However, feel free to <Link to="/contact-us">contact us</Link> with any questions!
-                </span>
+                </span> */}
                 </p>
         
             <h2 className="joinus-header">
@@ -54,12 +54,12 @@ export default function JoinUs() {
             </h2>
                 <p className="joinus-text">
                     <ul>
-                        {/* <li>
-                            Thursday, January 29th 8-9 pm @ Evans 6
+                        <li>
+                            Thursday, September 3rd 8-9 pm @ Dwinelle 109
                         </li>
                         <li>
-                            Thursday, February 5th 8-9 pm @ Dwinelle 215
-                        </li> */}
+                            Wednesday, September 9th 8-9 pm @ SOCS 140
+                        </li>
                         <li>
                             <a href="/downloads/infosession_fa25_usmo.pdf">
                                 Infosession Slides from Fall 2025

@@ -43,11 +43,11 @@ export default function() {
                     <section className = "join-us-container text-container-top">
                         <h2>Join Us</h2>
                         <div className="card">
-                            <p>
+                            {/* <p>
                                 All undergraduate students regardless of year and prior experience are welcome to join USMO! Learn more about what we do <Link to="/join-us">here</Link>. Alternatively, feel free to contact us <Link to="/contact">here</Link>.
-                            </p>
-{/* 
-                            <strong id="joinus-strong">We are now recruiting new members for Spring 2026!</strong>
+                            </p> */}
+
+                            <strong id="joinus-strong">We are now recruiting new members for Fall 2026!</strong>
                             <p style={{ textAlign: "center" }}>All undergraduate students regardless of year and prior experience are welcome to join USMO.</p>
 
                             <div className="joinus-home">
@@ -55,10 +55,10 @@ export default function() {
                                     <h3 style={{ textAlign: "center" }}>Infosessions</h3>
                                     <ul>
                                     <li>
-                                        Thursday, January 29th 8-9 pm @ Evans 6
+                                        Thursday, September 3rd 8-9 pm @ Dwinelle 109
                                     </li>
                                     <li>
-                                        Thursday, February 5th 8-9 pm @ Dwinelle 215
+                                        Wednesday, September 9th 8-9 pm @ SOCS 140
                                     </li>
                                     </ul>
                                 </div>                            
@@ -78,19 +78,19 @@ export default function() {
                                 Click <Link to="/join-us">here</Link> to learn more about outreach, committees, and more!
                             </strong>
                             <a 
-                                href="https://forms.gle/Ekv4CVYk5yR3pCQ27" 
+                                href="https://forms.gle/aDwsoveTzoatn5XZ8" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 style={{ display: "inline-block", marginTop: "10px", border: "4px solid #88acd4", padding: "10px 16px",  color: "black", borderRadius: "6px", textDecoration: "none", fontWeight: "bold" }} >
                                 Interest Form
                             </a>
                              <a 
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSdD-J5WDyQ1shzaHaejDgGDeKZtFx_CM3dZ33iuaES7W3czLg/viewform" 
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSeF45gMzyxHodd90ngPdPU9afiGVqqbLrf08T5idDVWZM3_5Q/viewform" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 style={{ display: "inline-block", marginTop: "10px", padding: "10px 16px", backgroundColor: "#88acd4", color: "black", borderRadius: "6px", textDecoration: "none", fontWeight: "bold" }} >
                                 APPLY
-                            </a> */}
+                            </a>
                            
 
                         </div>
