@@ -13,8 +13,6 @@ import configData from "../data/config.json";
 
 export default function JoinUs() {
 
-  const infosessions = Object.values(configData.infosessions);
-
   return (
     <>
       <Helmet>
