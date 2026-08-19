@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../styles/joinus.css"
 import { Helmet } from 'react-helmet-async';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import OutreachImage1 from '../images/outreach/outreach-1.jpg';
 import Usmogiving1 from '../images/usmogiving/usmogiving-1.jpg';
 import Usmogiving2 from '../images/usmogiving/usmogiving-2.jpg';
