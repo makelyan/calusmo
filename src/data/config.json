@@ -1,9 +1,13 @@
 {
+    "semester": "Fall 2026",
     "recruitment": true,
-    "application-link": "",
-    "interest-form-link": "",
-    "infosessions": [
-        "",
-        ""
-    ]
-}
+  
+    "application_link": "https://docs.google.com/forms/d/e/1FAIpQLSeF45gMzyxHodd90ngPdPU9afiGVqqbLrf08T5idDVWZM3_5Q/viewform",
+    "application_due": "Friday, September 11th @ 11:59PM",
+    "interest_form_link": "https://forms.gle/aDwsoveTzoatn5XZ8",
+  
+    "infosessions": {
+      "1": "Thursday, September 3rd 8-9 pm @ Dwinelle 109",
+      "2": "Wednesday, September 9th 8-9 pm @ SOCS 140"
+    }
+  }

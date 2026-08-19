@@ -6,9 +6,13 @@ import { Link } from "react-router-dom";
 import "../styles/home.css"
 import "../styles/index.css"
 import ourPartnershipsData from '../data/partnerships.json';
+import configData from '../data/config.json';
 import { Helmet } from 'react-helmet-async';
 
-export default function() {
+export default function () {
+
+    const infosessions = Object.values(configData.infosessions || {})
+        .filter(Boolean);
 
     return (
         <>
@@ -16,20 +20,25 @@ export default function() {
                 <title>USMO</title>
                 <link rel="canonical" href="https://calusmo.org/home" />
             </Helmet>
+
             <Header />
+
             <div className="banner-container">
                 <div className="banner-overlay">
                     <h1 className="banner-text">UNDERGRAD STREET MEDICINE OUTREACH</h1>
                 </div>
                 <img
-                className="banner-image"
-                alt="USMO Banner"
-                src={require("../images/mainBanner.jpg")}
+                    className="banner-image"
+                    alt="USMO Banner"
+                    src={require("../images/mainBanner.jpg")}
                 />
             </div>
+
             <div className="homepage-content-container">
                 <div className="homepage-text-content-container">
-                    <section className = "mission-statement-container text-container-top">
+
+                    {/* MISSION */}
+                    <section className="mission-statement-container text-container-top">
                         <h2>Our Mission</h2>
                         <div className="card">
                             <p>
@@ -40,94 +49,141 @@ export default function() {
                             </p>
                         </div>
                     </section>
-                    <section className = "join-us-container text-container-top">
-                        <h2>Join Us</h2>
-                        <div className="card">
-                            {/* <p>
-                                All undergraduate students regardless of year and prior experience are welcome to join USMO! Learn more about what we do <Link to="/join-us">here</Link>. Alternatively, feel free to contact us <Link to="/contact">here</Link>.
-                            </p> */}
 
-                            <strong id="joinus-strong">We are now recruiting new members for Fall 2026!</strong>
-                            <p style={{ textAlign: "center" }}>All undergraduate students regardless of year and prior experience are welcome to join USMO.</p>
+                    {/* JOIN US */}
+                    {configData.recruitment ? (
+                        <section className="join-us-container text-container-top">
+                            <h2>Join Us</h2>
 
-                            <div className="joinus-home">
-                                <div>
-                                    <h3 style={{ textAlign: "center" }}>Infosessions</h3>
-                                    <ul>
-                                    <li>
-                                        Thursday, September 3rd 8-9 pm @ Dwinelle 109
-                                    </li>
-                                    <li>
-                                        Wednesday, September 9th 8-9 pm @ SOCS 140
-                                    </li>
-                                    </ul>
-                                </div>                            
-                                <div>
-                                    <h3 style={{ textAlign: "center" }}>Members</h3>
-                                    <ul>
-                                        <li>
-                                            As a general member, you'll support community members by attending outreach!
-                                        </li>
-                                        <li>
-                                            You can also optionally join one of our <b>3 committees</b>: advocacy, external, and finance to get more involved!
-                                        </li>
-                                    </ul>
+                            <div className="card">
+
+                                <strong id="joinus-strong">
+                                    We are now recruiting new members for {configData.semester}!
+                                </strong>
+
+                                <p style={{ textAlign: "center" }}>
+                                    All undergraduate students regardless of year and prior experience are welcome to join USMO.
+                                </p>
+
+                                <div className="joinus-home">
+
+                                    <div>
+                                        <h3 style={{ textAlign: "center" }}>Infosessions</h3>
+                                        <ul>
+                                            {infosessions.map((session, index) => (
+                                                <li key={index}>{session}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h3 style={{ textAlign: "center" }}>Members</h3>
+                                        <ul>
+                                            <li>
+                                                As a general member, you'll support community members by attending outreach!
+                                            </li>
+                                            <li>
+                                                You can also optionally join one of our <b>3 committees</b>: advocacy, external, and finance to get more involved!
+                                            </li>
+                                        </ul>
+                                    </div>
+
                                 </div>
-                            </div>
-                            <strong>
-                                Click <Link to="/join-us">here</Link> to learn more about outreach, committees, and more!
-                            </strong>
-                            <a 
-                                href="https://forms.gle/aDwsoveTzoatn5XZ8" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                style={{ display: "inline-block", marginTop: "10px", border: "4px solid #88acd4", padding: "10px 16px",  color: "black", borderRadius: "6px", textDecoration: "none", fontWeight: "bold" }} >
-                                Interest Form
-                            </a>
-                             <a 
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSeF45gMzyxHodd90ngPdPU9afiGVqqbLrf08T5idDVWZM3_5Q/viewform" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                style={{ display: "inline-block", marginTop: "10px", padding: "10px 16px", backgroundColor: "#88acd4", color: "black", borderRadius: "6px", textDecoration: "none", fontWeight: "bold" }} >
-                                APPLY
-                            </a>
-                           
 
-                        </div>
-                    </section>
-                    <section className = "our-story-container text-container-top">
+                                <strong>
+                                    Click <Link to="/join-us">here</Link> to learn more about outreach, committees, and more!
+                                </strong>
+
+                                {configData.interest_form_link && (
+                                    <a
+                                        href={configData.interest_form_link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        style={{
+                                            display: "inline-block",
+                                            marginTop: "10px",
+                                            border: "4px solid #88acd4",
+                                            padding: "10px 16px",
+                                            color: "black",
+                                            borderRadius: "6px",
+                                            textDecoration: "none",
+                                            fontWeight: "bold"
+                                        }}
+                                    >
+                                        Interest Form
+                                    </a>
+                                )}
+
+                                {configData.application_link && (
+                                    <a
+                                        href={configData.application_link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        style={{
+                                            display: "inline-block",
+                                            marginTop: "10px",
+                                            padding: "10px 16px",
+                                            backgroundColor: "#88acd4",
+                                            color: "black",
+                                            borderRadius: "6px",
+                                            textDecoration: "none",
+                                            fontWeight: "bold"
+                                        }}
+                                    >
+                                        APPLY
+                                    </a>
+                                )}
+
+                            </div>
+                        </section>
+                    ) : (
+                        <section className="join-us-container text-container-top">
+                            <h2>Join Us</h2>
+
+                            <div className="card">
+                                <p>
+                                    All undergraduate students regardless of year and prior experience are welcome to join USMO! Learn more about what we do <Link to="/join-us">here</Link>. Alternatively, feel free to contact us <Link to="/contact">here</Link>.
+                                </p>
+                            </div>
+                        </section>
+                    )}
+
+                    {/* OUR STORY */}
+                    <section className="our-story-container text-container-top">
                         <h2>Our Story</h2>
                         <div className="card">
                             <strong>
                                 USMO started in 2021 with a dream and a kitchen...
-                            </strong> 
-                            <p>    
-                            Our first outreach involved only three ingredients: peanut butter, jelly, and whole wheat bread. It 
-                            came as a response from our small group of founders— Jason Abbas, Ranga Bharadwaj, Rishi Raghavan, and Rahul Desmane— to the severe lack of community resources 
-                            we witnessed firsthand in Berkeley's unhoused encampments. Noticing the real change we could 
-                            effect with just a few sandwiches, we decided it was worthwhile to scale up our operation, creating USMO as 
-                            we know it today. Within one short year as a student organization, USMO has grown to a club with over <strong>80+ members</strong> that visit 
-                            encampments weekly, no matter the circumstance, to provide medical supplies, food, and social support to our community members. 
-                            We at USMO believe that everyone should make the effort to help one another, and we provide the opportunity to do so to anyone who wishes to start. 
+                            </strong>
+                            <p>
+                                Our first outreach involved only three ingredients: peanut butter, jelly, and whole wheat bread. It 
+                                came as a response from our small group of founders— Jason Abbas, Ranga Bharadwaj, Rishi Raghavan, and Rahul Desmane— to the severe lack of community resources 
+                                we witnessed firsthand in Berkeley's unhoused encampments. Noticing the real change we could 
+                                effect with just a few sandwiches, we decided it was worthwhile to scale up our operation, creating USMO as 
+                                we know it today. Within one short year as a student organization, USMO has grown to a club with over <strong>80+ members</strong> that visit 
+                                encampments weekly, no matter the circumstance, to provide medical supplies, food, and social support to our community members. 
+                                We at USMO believe that everyone should make the effort to help one another, and we provide the opportunity to do so to anyone who wishes to start. 
                             </p>
                         </div>
                     </section>
+
+                    {/* PARTNERSHIPS */}
                     <section className="our-partnerships-container text-container-top">
                         <h2>Our Partnerships</h2>
-                        <div className="card"> 
-                            <div className = "our-partnerships-wrapper">
+                        <div className="card">
+                            <div className="our-partnerships-wrapper">
                                 <div className="our-partnerships-grid">
-                                {ourPartnershipsData.map((org, index) => (
-                                    <div className="our-partnerships-item" key={index}>
-                                        <div className="our-partnerships-logo">
-                                            <OurPartnerships
-                                                name={org.name} 
-                                                link={org.link} 
-                                            />
+                                    {ourPartnershipsData.map((org, index) => (
+                                        <div className="our-partnerships-item" key={index}>
+                                            <div className="our-partnerships-logo">
+                                                <OurPartnerships
+                                                    name={org.name}
+                                                    link={org.link}
+                                                />
+                                            </div>
+                                            <p style={{ textAlign: 'center' }}>{org.name}</p>
                                         </div>
-                                        <p style={{ textAlign: 'center' }}>{org.name}</p> 
-                                    </div>
-                                ))}
+                                    ))}
                                 </div>
                             </div>
                         </div>
@@ -135,7 +191,8 @@ export default function() {
 
                 </div>
             </div>
+
             <Footer />
         </>
     )
-}   
+}
