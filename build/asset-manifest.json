@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.883cff4e.css",
-    "main.js": "/static/js/main.c40aa4cc.js",
+    "main.js": "/static/js/main.2a7f1442.js",
     "static/js/453.392ddf6f.chunk.js": "/static/js/453.392ddf6f.chunk.js",
     "static/media/Anoushka Adusumalli.png": "/static/media/Anoushka Adusumalli.9bcafe66b4361deffaa3.png",
     "static/media/Riya Singh.jpg": "/static/media/Riya Singh.767ca9917192b38f7870.jpg",
@@ -28,19 +28,21 @@
     "static/media/blankets.jpg": "/static/media/blankets.0abb55a779acd62ceb8f.jpg",
     "static/media/Ryan Alavi.jpg": "/static/media/Ryan Alavi.a6c95bc7550444e22552.jpg",
     "static/media/Saesha Sharda.jpg": "/static/media/Saesha Sharda.d7a97b1021a6883a7a56.jpg",
+    "static/media/2nd_Page.jpg": "/static/media/2nd_Page.1eba9afa017394e01025.jpg",
     "static/media/Sanchitha Kannabran.jpg": "/static/media/Sanchitha Kannabran.7ae01247c9842375f016.jpg",
     "static/media/Helen Li.png": "/static/media/Helen Li.1aed79a78c77c4f34b4a.png",
     "static/media/Ashley Tan.jpg": "/static/media/Ashley Tan.7c139d2cb7b67921a2b4.jpg",
     "static/media/outreach-3.jpg": "/static/media/outreach-3.102038dbb6384a517e54.jpg",
     "static/media/Pranavi Oduru.jpg": "/static/media/Pranavi Oduru.60bf03fb37279ebd576a.jpg",
+    "static/media/8th_Harrison.jpg": "/static/media/8th_Harrison.f8fa0b6e09fd0dd8dd08.jpg",
     "static/media/logo.png": "/static/media/logo.142660d02dae7929a059.png",
     "index.html": "/index.html",
     "main.883cff4e.css.map": "/static/css/main.883cff4e.css.map",
-    "main.c40aa4cc.js.map": "/static/js/main.c40aa4cc.js.map",
+    "main.2a7f1442.js.map": "/static/js/main.2a7f1442.js.map",
     "453.392ddf6f.chunk.js.map": "/static/js/453.392ddf6f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.883cff4e.css",
-    "static/js/main.c40aa4cc.js"
+    "static/js/main.2a7f1442.js"
   ]
 }
